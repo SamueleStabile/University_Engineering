@@ -1,2 +1,0 @@
-# C
-University C
