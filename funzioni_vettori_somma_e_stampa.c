@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 
     float m = media_vett(v, d);
 
-    printf("La media è: %.2f\n",m);
+    printf("La media e': %.2f\n",m);
 
     return 0;
 }
@@ -27,7 +27,7 @@ void stampa_vett(int vett[], int num) {
     int i;
 
     for(i=0; i<num; i++){
-        printf("il numero del vettore è: %d\n", vett[i]);
+        printf("il numero del vettore e': %d\n", vett[i]);
 
     }
  
