@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "stdbool.h": "c"
+    }
+}
