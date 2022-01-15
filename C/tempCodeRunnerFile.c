@@ -1,1 +1,1 @@
- system("cls");
+#include <unistd.h>

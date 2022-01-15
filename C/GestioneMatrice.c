@@ -78,9 +78,10 @@ int get_rows (){
         printf("Righe matrice: ");
         scanf("%d", &sub_rows);
     
-        if(sub_rows <= 0 || sub_rows >= max)
+        if(sub_rows <= 0 || sub_rows >= max){
             printf("\n\nATTENZIONE! Valore non accettabile, Riprova!\n\n");
             system("pause");
+        }
         
     } while (sub_rows <= 0 || sub_rows >= max);
 
@@ -88,6 +89,61 @@ int get_rows (){
     return sub_rows;
 }
 
+bool check_squarematrix(int rows, int cols){
+    if(rows == cols){
+    return true;
+    }
+    else{
+        return false;
+    }
+
+}
+
+void diagonale (int matrix[max][max], int rows, int cols, bool principale_opposta ){
+
+system("cls");
+
+    if(check_squarematrix(rows, cols) == true){
+
+        if(principale_opposta){
+            
+                    printf("\n-----DIAGONALE PRINCIPALE-----\n\n");
+                    for(int i = 0; i < rows; i++){
+
+                            for(int f = 0; f < i; f++){					 										
+                                printf("   ");							
+                                    }	
+
+                    printf("[%d]\n", matrix[i][i]);
+                    }
+            }
+            else{
+                    printf("\n-----DIAGONALE OPPOSTA-----\n\n");
+                    
+                    int righe = 0;
+                    int colonne = cols - 1;
+                    
+                    do										// ciclo di visualizazzione diagonale
+                    {
+                        if (colonne > 0) {
+                            for(int f = 0; f < colonne; f++){
+                                printf("   ");					
+                            }		
+                        }						
+                        				                     					
+                        printf("[%d]\n", matrix[righe][colonne]);
+
+                        righe++;
+                        colonne--;
+
+	                } while (righe < cols);
+            }
+    }
+    else{
+        printf("\nMatrice non Quadrata! Impossibile determinare una Diagonale Principale!\n\n");
+        }
+    
+}
 int get_cols (){
 
     int sub_cols;
@@ -97,15 +153,17 @@ int get_cols (){
         printf("Colonne matrice: ");
         scanf("%d", &sub_cols);
     
-        if(sub_cols <= 0 || sub_cols >= max)
+        if(sub_cols <= 0 || sub_cols >= max){
             printf("\n\nATTENZIONE! Valore non accettabile, Riprova!\n\n");
             system("pause");
+            }
         
     } while (sub_cols <= 0 || sub_cols >= max);
 
     system("cls");
     return sub_cols;
 }
+
 int main(){
 
     int rows, cols; 
@@ -114,14 +172,9 @@ int main(){
 
     presentazione();
     
-    printf("---DEFINISCI MATRICE---");
-    sleep(2);
-    
     rows = get_rows();
     cols = get_cols();
 
-    printf("---Ora riempi la matrice!---\n\n\n");
-    system("pause");
     system("cls");
 
     fill_matrix(matrix, rows, cols);
@@ -138,9 +191,22 @@ int main(){
             system("pause");
             break;
 
-            case 9:
-            end_bool = true;
+            case 3: 
+            diagonale(matrix, rows, cols, true);
+            system("pause");
             break;
+
+            case 4: 
+            diagonale(matrix, rows, cols, false);
+            system("pause");
+            break;
+
+            case 9:
+            end_bool = true; //oppure return 0 oppure reutrn EXIT_SUCCESS
+            break;
+
+            case 8:
+            
 
             default:
 			printf("\n\nERRORE: La scelta deve essere compresa tra 1 e 9!\n\n");
