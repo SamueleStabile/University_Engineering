@@ -3,12 +3,6 @@
 #include <unistd.h>
 #include <stdbool.h>
 #define max 100
-    
-int menu();
-int matrice();
-void presentazione();
-void fill_matrix(int matrix[max][max], int rows, int cols);
-void view_matrix(int matrix[max][max], int rows, int cols);
 
 void presentazione(){
 
@@ -36,16 +30,18 @@ int menu(){
     printf("[4] Visualizzare diagonale opposta \n");
     printf("[5] Visualizzare la matrice trasposta \n");
     printf("[6] Somma degli elementi della matrice \n");
-    printf("[7] Somma colonna a scelta \n");
-    printf("[8] Somma righe a scelta \n");
+    printf("[7] Somma riga a scelta \n");
+    printf("[8] Somma colonna a scelta \n");
     printf("[9] Termina Programma \n\n");
 
     printf("Inserisci Operazione: ");
     scanf("%d", &scelta);
+    printf("\n\n");
 
     return(scelta);
 
 }
+
 void fill_matrix(int matrix[max][max], int rows, int cols){
 
     for (int i = 0; i < rows; i++){
@@ -57,14 +53,29 @@ void fill_matrix(int matrix[max][max], int rows, int cols){
     }
 }
 
+void print_matrix_index(int rows_cols){
+
+    printf("   ");
+
+    for(int k = 0; k < rows_cols; k++){
+        printf("  %d  ", k);
+    }
+    printf("\n");
+}
+
 void view_matrix(int matrix[max][max], int rows, int cols){
 
-    printf("\n");
-    for (int i = 0; i < rows; i++){
+    printf("--- Matrice Visualizzata ---\n");
 
-        for(int j = 0; j < cols; j++){
-            printf(" [%d] ", matrix[i][j]);
-        }
+    print_matrix_index(rows);
+
+        for (int i = 0; i < rows; i++){
+
+        printf(" %d ", i);
+
+            for(int j = 0; j < cols; j++){
+                printf(" [%d] ", matrix[i][j]);
+            }
         printf("\n");
     }
 } 
@@ -144,6 +155,7 @@ system("cls");
         }
     
 }
+
 int get_cols (){
 
     int sub_cols;
@@ -164,6 +176,63 @@ int get_cols (){
     return sub_cols;
 }
 
+void matrice_trasposta(int matrix[max][max],int rows, int cols){
+
+    for(int i = rows-1; i >= 0; i--){
+        for(int j = cols-1; j >= 0; j--){
+            printf(" [%d] ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+   
+}
+
+int sum(int matrix[max][max], int rows, int cols){
+    
+   int total_sum = 0;
+
+   for(int i = 0; i < rows; i++){
+       for(int j = 0; j < cols; j++){
+           total_sum += matrix[i][j];
+       }
+   }
+   return total_sum;
+}
+
+int rows_sum(int matrix[max][max], int rows, int cols){
+
+    int row_selected;
+    int rows_sum = 0;
+    view_matrix(matrix, rows, cols);
+
+    printf("\n\n Scegli la riga da addizionare: ");
+    scanf("%d", &row_selected);
+
+    for(int i = 0; i < rows; i++){
+        rows_sum += matrix[row_selected][i];
+    }
+
+    return rows_sum;
+
+}
+
+int cols_sum(int matrix[max][max], int rows, int cols){
+
+    int col_selected;
+    int cols_sum = 0;
+    view_matrix(matrix, rows, cols);
+
+    printf("\n\n Scegli la colonna da addizionare: ");
+    scanf("%d", &col_selected);
+
+    for(int i = 0; i < cols; i++){
+        cols_sum += matrix[i][col_selected];
+    }
+
+    return cols_sum;
+
+}
+
 int main(){
 
     int rows, cols; 
@@ -182,22 +251,50 @@ int main(){
         switch(menu()){
             
             case 1: 
+            system("cls");
             view_matrix(matrix, rows, cols);
             system("pause");
             break;
 
             case 2: 
+            system("cls");
             fill_matrix(matrix, rows, cols);
             system("pause");
             break;
 
             case 3: 
+            system("cls");
             diagonale(matrix, rows, cols, true);
             system("pause");
             break;
 
             case 4: 
+            system("cls");
             diagonale(matrix, rows, cols, false);
+            system("pause");
+            break;
+
+            case 5: 
+            system("cls");
+            matrice_trasposta(matrix, rows, cols);
+            system("pause");
+            break;
+
+            case 6:
+            system("cls");
+            printf("\n\nLa somma di tutti gli elementi della matrice --> [%d]\n\n", sum(matrix, rows, cols));
+            system("pause");
+            break;
+
+            case 7:
+            system("cls");
+            printf("\n\nSomma Riga selezionata: --> [%d]\n\n", rows_sum(matrix, rows, cols));
+            system("pause");
+            break;
+
+            case 8:
+            system("cls");
+            printf("\n\nSomma Colonna selezionata: --> [%d]\n\n", cols_sum(matrix, rows, cols));
             system("pause");
             break;
 
@@ -205,10 +302,8 @@ int main(){
             end_bool = true; //oppure return 0 oppure reutrn EXIT_SUCCESS
             break;
 
-            case 8:
-            
-
             default:
+            system("cls");
 			printf("\n\nERRORE: La scelta deve essere compresa tra 1 e 9!\n\n");
 			system("pause");
 			break;
