@@ -5,6 +5,7 @@ int main(){
     FILE* fp;
     char c;
     int cont = 0;
+    
     fp = fopen("dati.txt" , "r");
     
     if(fp == NULL){

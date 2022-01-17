@@ -20,7 +20,7 @@ int main(){
   fclose(fp);
 }
 
-
+//IMPORTANTE-------------------------------------------------------------
 FILE* ApriFile(char* mode){
 
     FILE* fptr;
