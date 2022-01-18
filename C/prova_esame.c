@@ -104,7 +104,7 @@ int Leggi_Operazioni(FILE *fpin, char str[][NCAR])
 {
     char c;
     for(int i = 0; i < (fscanf(fpin,"%c", c) != '\n'); i++){
-    fscanf(fpin, "%s", str[][]);
+   // fscanf(fpin, "%s", str[][]);
     }
 }
 
