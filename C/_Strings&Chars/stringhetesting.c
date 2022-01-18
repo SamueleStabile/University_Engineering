@@ -9,7 +9,7 @@ int main(){
     int i = 0;
     printf("Inserisci una stringa: ");
 
-    //for( i = 0; (( s[i] = getchar()) != '\n'); i++ ){}
+    //for( i = 0; (( stringadimerda[i] = getchar()) != '\n'); i++ ){}
 
     //printf("Hai inserito la stringa: %s", s);
 
