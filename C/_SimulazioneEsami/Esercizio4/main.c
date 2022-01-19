@@ -72,7 +72,17 @@ int main(int argc, char** argv) {
  e ritorna il puntatore al file
  */
 FILE *ApriFile(char* mode) {
-    /* FUNZIONE DA COMPLETARE*/
+
+    char nomefile[NCAR];
+    FILE *fptr;
+
+    printf("Nome File: ");
+    scanf("%s", nomefile);
+
+    if((fptr = fopen(nomefile, mode)) == NULL){
+        printf("Error opening file");
+    }
+    return fptr;
 }
 
 /*
@@ -80,7 +90,15 @@ FILE *ApriFile(char* mode) {
  * il numero di occorrenze di doppie contenute nella stringa.
  */
 int Doppie(char str[]) {
-    /* FUNZIONE DA COMPLETARE*/
+    
+int doppie = 0;
+
+    for(int i = 0; str[i] != '\0'; i++){
+        if( str[i] == str[i+1]){
+            doppie++;
+        }
+    }
+    return doppie;
 }
 
 
@@ -91,5 +109,6 @@ int Doppie(char str[]) {
  * 
  */
 void ScriviRisultato(FILE *fpout, char string[], int n_doppie) {
-    /* FUNZIONE DA COMPLETARE*/
+
+        fprintf(fpout, "%s: [%d]\n", string, n_doppie);
 }

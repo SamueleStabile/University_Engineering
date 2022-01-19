@@ -181,6 +181,22 @@ void StampaVettore(int a[], int n) {
  * gli elementi della matrice. La funzione restituisce la dimensione della matrice
  */
 int LeggiMatrice(FILE *fpin, int mat[][DIM]) {
+
+    int dimensione;
+    //leggo la dimensione della matrice
+    fscanf(fpin, "%d\n", &dimensione);
+    printf("Dimensione Matrice[%d]\n", dimensione);
+
+    while(!feof(fpin)){
+        for(int rows=0; rows<dimensione; rows++){
+            for(int cols = 0; cols<dimensione; cols++){
+                fscanf(fpin, "%d ", &mat[rows][cols]);
+            }
+            fscanf(fpin, "\n");
+        }
+        return dimensione;
+    }
+
     /* Funzione da completare */
 }
 
@@ -189,8 +205,14 @@ int LeggiMatrice(FILE *fpin, int mat[][DIM]) {
  * dimensione. Stampa a video i valori della matrice.
  */
 void StampaMatrice(int m[][DIM], int n) {
-    /* Funzione da completare */
-}
+     printf("--------Matrice--------\n");
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j<n; j++){
+                printf("%d ", m[i][j]);
+            }
+            printf("\n");
+        }
+    }
 
 /* 
  * La funzione RiempiVettoreSomme riceve in ingresso la matrice a e la sua dimensione n.
@@ -198,7 +220,15 @@ void StampaMatrice(int m[][DIM], int n) {
  * nell'elemento i-mo del vettore v, passato come ulteriore parametro.
  */
 void RiempiVettoreSomme(int a[][DIM], int n, int v[]) {
-    /* Funzione da completare */
+    
+    int i = 0;
+
+    for(int rows = 0; rows< n; rows++){
+        for(int cols = 0; cols<n; cols++){
+            v[i] += a[rows][cols]; 
+        }
+        i++;
+    }
 }
 
 /* 
@@ -207,7 +237,22 @@ void RiempiVettoreSomme(int a[][DIM], int n, int v[]) {
  * restituiti tramite i parametri imin e imax, rispettivamente.
  */
 void CercaMinMax(int v[], int n, int *imin, int *imax) {
-    /* Funzione da completare */
+
+    *imax = v[0];
+    *imin = v[0];
+
+    //cerco MAX
+    for(int i = 0; i < n; i++){
+        if( v[i] > *imax ){
+            *imax = i;
+        }
+    }
+    //cerco MIN
+    for(int j = 0; j < n; j++){
+        if( v[j] < *imin ){
+            *imin = j;
+        }
+    }
 }
 
 /* 
@@ -217,7 +262,17 @@ void CercaMinMax(int v[], int n, int *imin, int *imax) {
  * indice k della matrice.
  */
 void ScambiaRighe(int m[][DIM], int n, int h, int k) {
-    /* Funzione da completare */
+
+    int vett_temp; 
+    
+    printf("H = %d\nK = %d\n",h,k);
+        for(int i = 0; i < n; i++){
+
+            vett_temp = m[h][i]; 
+            m[h][i] = m[k][i];      
+            m[k][i] = vett_temp;    
+
+        }
 }
 
 /* 
@@ -226,7 +281,15 @@ void ScambiaRighe(int m[][DIM], int n, int h, int k) {
  * dimensione della matrice quadrata. Successivamente scrive su file gli elementi della matrice.
  */
 void ScriviMatrice(FILE *fpin, int mat[][DIM], int n) {
-    /* Funzione da completare */
+    
+    fprintf(fpin, "%d\n", n);
+
+    for(int i = 0; i < n; i++){
+        for(int k = 0; k<n; k++){
+            fprintf(fpin, "%d ", mat[i][k]);
+        }
+        fprintf(fpin, "\n");
+    }
 }
 
 

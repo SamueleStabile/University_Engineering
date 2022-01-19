@@ -24,7 +24,7 @@ Numero stringhe: 14
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 #define NCAR 64
 
 FILE *ApriFile(char mode[]);
@@ -65,15 +65,44 @@ int main(int argc, char** argv) {
  e ritorna il puntatore al file
  */
 FILE *ApriFile(char mode[]) {
-    /* FUNZIONE DA COMPLETARE*/
+
+    FILE* fptr;
+
+    char nome_file[NCAR];
+
+    printf("Inserisci nome file: ");
+    scanf("%s", nome_file);
+
+    if( (fptr = fopen( nome_file,mode)) == NULL ){
+        printf("Error");
+    }
+
+    return fptr;
 }
 
 /*
  * La funzione statistics prende in input una stringa (letta dal file) e restituisce nei parametri passati alla funzione, 
  * il numero di caratteri consonanti, vocali, minuscoli e maiuscoli  che appaiono nel file.
  */
+//maiuscola ascii -> from 65 to 90
+//minuscoli ascii -> form 97 to 122
 void Statistics(char stringa[], int *c, int *v, int *m, int *M) {
-    /* FUNZIONE DA COMPLETARE*/
+
+    *c = 0;
+    *v = 0;
+    *m = 0;
+    *M = 0;
+
+        for(int i=0;stringa[i]!='\0';i++){
+            if(stringa[i]=='a' || stringa[i]=='e' || stringa[i]=='i' || stringa[i]=='o' || stringa[i]=='u' || stringa[i]=='A' || stringa[i]=='E' || stringa[i]=='I' || stringa[i]=='O' || stringa[i]=='U')
+                *v=*v+1;
+            if(!(stringa[i]=='a' || stringa[i]=='e' || stringa[i]=='i' || stringa[i]=='o' || stringa[i]=='u' || stringa[i]=='A' || stringa[i]=='E' || stringa[i]=='I' || stringa[i]=='O' || stringa[i]=='U'))    
+                *c=*c+1;
+            if(stringa[i]>64 && stringa[i]<91)
+                *M=*M+1;
+            if(stringa[i]>96 && stringa[i]<123)
+                *m=*m+1;
+    }
 }
 
 /*
@@ -83,5 +112,10 @@ void Statistics(char stringa[], int *c, int *v, int *m, int *M) {
  * e infine il numero totale di stringhe trovate nel file.
  */
 void ScriviRisultato(FILE *fpout, int c, int v, int m, int M, int n_stringhe) {
-    /* FUNZIONE DA COMPLETARE*/
+
+    fprintf(fpout,"VOCALI: [%d]\n",v);
+    fprintf(fpout,"CONSONANTI: [%d]\n",c);
+    fprintf(fpout,"MAIUSCOLE: [%d]\n",M);
+    fprintf(fpout,"MINUSCOLE: [%d]\n",m);
+    fprintf(fpout,"NUMERO PAROLE: [%d]",n_stringhe);
 }
