@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "*.html": "html",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "random": "c",
+        "limits": "c"
     }
 }

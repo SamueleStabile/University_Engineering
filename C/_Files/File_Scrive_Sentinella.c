@@ -8,15 +8,22 @@ int main(){
 
     FILE* fp;
     char s[1000];
+    char ch;
+    int i = 0;
 
    fp = ApriFile("w");
 
-   scanf("%s", s);
+   printf("Inserisici Caratteri da scrivere su File (con '$' termini la compilazione) : ");
 
-   while(strcmp(s , "$")){
-         fprintf(fp, "%s", s);
-         scanf("%s", s);
+   while ((s[i] = getchar()) != '$')
+   { 
+       i++;
    }
+
+   s[i++] = '\0';
+
+   fprintf(fp,"%s", s);
+
   fclose(fp);
 }
 
