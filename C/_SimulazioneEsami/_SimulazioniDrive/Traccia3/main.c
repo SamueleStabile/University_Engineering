@@ -114,7 +114,10 @@ FILE *ApriFile(char* mode)
 */
 int Leggi_Sequenze(FILE *fpin, char str[][NCAR])
 {
-    /* FUNZIONE DA COMPLETARE */
+	
+		for(int i = 0; ((!feof(fpin))); i++){
+			for(int j = 0;((str[i][] = fgetc(fpin)) == '\n') ; j++){			}
+		}
 }
 
 /*

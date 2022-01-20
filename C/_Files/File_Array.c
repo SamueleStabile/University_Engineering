@@ -9,14 +9,14 @@ int main(){
 FILE* fileStream = fopen("mat.dat", "r");
 
 int array[length];
-int quantity = 10;
+int quantity = 20;
 int i = 0;
 
-
-for( int i = 0; i < quantity; i++){
+//-------Assorbire in un array[], dei numeri da un file----------
+for( int i = 0; (!feof(fileStream)); i++){
     fscanf(fileStream, "%d\n", &array[i]);
    }
-
+//---------------------------------------------------------------
 system("cls");
 for(int j = 0; j < quantity; j++){
     printf("Numero [%d]: %d\n", j+1, array[j]);

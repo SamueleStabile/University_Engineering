@@ -13,9 +13,9 @@ int main(){
 
     streamFile = ApriFile("r");
 
-    while(!feof(streamFile)){
-    fscanf(streamFile, "%s ", string);
-    printf("Parola: %s\n", string);
+        while(!feof(streamFile)){
+        fscanf(streamFile, "%s ", string);
+        printf("Parola: %s\n", string);
     }
     return 0;
 

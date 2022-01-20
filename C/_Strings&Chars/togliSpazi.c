@@ -12,6 +12,10 @@ int main() {
     int j;
     int k=0;
 
+
+
+    //---------------------------------------------------------------------
+    //Questo programma rimuove gli spazi vuoti in una stringa
     printf("\n Inserisci una frase: ");
 
     for(i =0; ( s[i] = getchar() ) != '\n'; i++){} //assorbo stringa
@@ -30,6 +34,7 @@ int main() {
 
     f[k--] = '\0';
     printf("%s",f);
+    //---------------------------------------------------------------------
 
     return 0;
 }

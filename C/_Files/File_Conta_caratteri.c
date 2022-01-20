@@ -5,6 +5,9 @@
 FILE* ApriFile(char* mode, char nome_file[NCAR]);
 
 int main(){
+    //-------------------------------------------------------------
+    //Questo programma apre un file in ("w") e ci scrive sopra una stringa
+    //Poi lo riapre in ("r") e legge i singoli char
 
     FILE* fp;
     char writing[NCAR];
@@ -43,9 +46,8 @@ int main(){
         }
 
     }
-
     printf("\nNumero di caratteri nel file: %d", cont);
-
+//------------------------------------------------------------------
 
 }
 

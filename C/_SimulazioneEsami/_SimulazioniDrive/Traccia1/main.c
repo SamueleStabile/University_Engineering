@@ -82,7 +82,19 @@ int main ()
  */
 FILE *ApriFile(char* mode)
 {
-	/* FUNZIONE DA COMPLETARE */
+	FILE* fptr;
+	char filename[NCAR+1];
+
+
+	printf("Inserisci Nome File: ");
+	scanf("%s", filename);
+
+	if((fptr = fopen(filename, mode)) == NULL){
+		printf("Error to open file!\n");
+	}
+
+	return fptr;
+
 }
 
 /*
@@ -93,8 +105,22 @@ FILE *ApriFile(char* mode)
  */
 int Leggi_Operazioni(FILE *fpin, char str[][NCAR])
 {
-    /* FUNZIONE DA COMPLETARE */
-}
+	char ch;
+	int i = 0;
+	int j = 0;
+	
+	    while(!feof(fpin)){	
+			ch = fgetc(fpin);
+				if(ch != ' ' && ch != '\n'){
+					str[i][j] = ch;
+					j++;
+				} else if (ch == '\n'){
+					i++;
+					j = 0;
+				}
+		}
+	return i;
+	}
 
 /*
  La funzione Esegui_Operazioni prende in ingresso la matrice di char contenente le operazioni, il
@@ -102,10 +128,92 @@ int Leggi_Operazioni(FILE *fpin, char str[][NCAR])
  della matrice) da effettuare. Effettua le operazioni, determinando il primo operando, l'operazione 
  e il secondo operando (si deve effettuare una conversione da ascii a numerico) e immagazzina il risultato
  nel vettore dei risultati.
+ // 
  */
 void Esegui_Operazioni(char str[][NCAR], int r[], int n)
 {
-    /* FUNZIONE DA COMPLETARE */
+	//conversione 
+	int i, q, p, j, a, l;
+    i = p = a = 0;
+    int temp, tipo;
+    int vet[MAXOP];
+    int op1, op2;
+    char ch;
+
+			for(l=0;l<n;l++){
+				op1 = op2 = 0;
+				q = p = 0;
+				temp = 0;
+				ch=str[i][q];
+
+				while(ch!='+' && ch!='-' && ch!='*' && ch!='/'){
+					vet[p] = ch-48;
+					p++;
+					q++;
+					ch=str[i][q];
+				}
+				temp=p-1;
+			for (j=0; j<p; j++){
+				op1 = op1 + (vet[j]*pow(10,temp));
+				temp = temp -1;
+			}
+            printf("%d\n",op1);
+
+			if(ch=='+'){
+				tipo=0;
+			} else if(ch=='-'){
+				tipo=1;
+			} else if(ch=='*'){
+				tipo=2;
+			} else if(ch=='/'){
+				tipo=3;
+			}
+
+			q++;
+			ch=str[i][q];
+			p=0;
+
+			while(ch!='\0'){
+				vet[p] = ch-48;
+				p++;
+				q++;
+				ch=str[i][q];
+			}
+            temp=p-1;
+		for (j=0; j<p; j++){
+			op2=op2 + (vet[j]*pow(10,temp));
+			temp = temp -1;
+		}
+			printf("%d\n",op2);
+			if(tipo==0){
+				r[a]=op1+op2;
+			} else if(tipo==1){
+				r[a]=op1-op2;
+			} else if(tipo==2){
+				r[a]=op1*op2;
+			} else if(tipo==3){
+				r[a]=op1/op2;
+			}
+			printf("%d\n", r[a]);
+			a++;
+			i++;
+			}
+
+	
+	
+	
+	/*
+		if(str[0][0] != '\n'){
+			while(str[0][0] != '+' && str[0][0] != '-' && str[0][0] != '*' && str[0][0] != '/'){
+				temp = str[0][0] - '0';
+				numero[i] = (numero[i]*10) + temp;
+				printf("%d", numero[i]);
+				i++;
+			} 
+		}
+	*/
+	/*char a = '4';
+	int ia = a - '0';*/
 }
 
 /*
