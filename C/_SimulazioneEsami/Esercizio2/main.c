@@ -194,9 +194,8 @@ int LeggiMatrice(FILE *fpin, int mat[][DIM]) {
             }
             fscanf(fpin, "\n");
         }
-        return dimensione;
     }
-
+   return dimensione;
     /* Funzione da completare */
 }
 
@@ -261,6 +260,7 @@ void CercaMinMax(int v[], int n, int *imin, int *imax) {
  * Scambia gli elementi della riga di indice h e gli elementi della riga di 
  * indice k della matrice.
  */
+
 void ScambiaRighe(int m[][DIM], int n, int h, int k) {
 
     int vett_temp; 

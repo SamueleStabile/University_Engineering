@@ -56,7 +56,7 @@ int main() {
     fp = apriFile("r");
 
     /* Legge la vettore da file */
-    n = leggiVettore(fp, a);
+    n = leggiVettore(fp, a); //resitutisce la dimensione  del vettore
 
     /* Chiude il file */
     fclose(fp);
@@ -125,7 +125,7 @@ int leggiVettore(FILE *fpin, int array[]) {
 int i = 0;
 
     while(!(feof(fpin))){
-        fscanf(fpin, "%d", &array[i]);
+        fscanf(fpin, "%d ", &array[i]);
         i++;
     }
     return i;
@@ -141,7 +141,6 @@ void stampaVettore(int a[], int n) {
         printf("%d ", a[i]);
     }
     printf("\n");
-
 }
 
 

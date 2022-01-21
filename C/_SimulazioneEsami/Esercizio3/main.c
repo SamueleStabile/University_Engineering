@@ -64,6 +64,7 @@ int main(int argc, char** argv) {
  dall'utente nella modalità specificata dal parametro formale mode
  e ritorna il puntatore al file
  */
+
 FILE *ApriFile(char mode[]) {
 
     FILE* fptr;
@@ -98,9 +99,9 @@ void Statistics(char stringa[], int *c, int *v, int *m, int *M) {
                 *v=*v+1;
             if(!(stringa[i]=='a' || stringa[i]=='e' || stringa[i]=='i' || stringa[i]=='o' || stringa[i]=='u' || stringa[i]=='A' || stringa[i]=='E' || stringa[i]=='I' || stringa[i]=='O' || stringa[i]=='U'))    
                 *c=*c+1;
-            if(stringa[i]>64 && stringa[i]<91)
+            if(stringa[i]>'A' && stringa[i]<'Z') // == stringa[i]>65 && stringa[i]<90
                 *M=*M+1;
-            if(stringa[i]>96 && stringa[i]<123)
+            if(stringa[i]>'a' && stringa[i]<'z') // == stringa[i]>97 && stringa[i]<122
                 *m=*m+1;
     }
 }
@@ -112,6 +113,13 @@ void Statistics(char stringa[], int *c, int *v, int *m, int *M) {
  * e infine il numero totale di stringhe trovate nel file.
  */
 void ScriviRisultato(FILE *fpout, int c, int v, int m, int M, int n_stringhe) {
+
+    printf("\n------Contatori-------\n");
+    printf("VOCALI: [%d]\n",v);
+    printf("CONSONANTI: [%d]\n",c);
+    printf("MAIUSCOLE: [%d]\n",M);
+    printf("MINUSCOLE: [%d]\n",m);
+    printf("NUMERO PAROLE: [%d]",n_stringhe);
 
     fprintf(fpout,"VOCALI: [%d]\n",v);
     fprintf(fpout,"CONSONANTI: [%d]\n",c);

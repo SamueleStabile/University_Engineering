@@ -8,6 +8,8 @@ char ch;
 char string[LENGTH+1]; //quel +1 sta per il carattere terminatore '\0' che dovremmo aggiungere noi alla fine
 int i = 0;
 
+
+    printf("Inserisci stringa: ");
     //Alternativa al while
     //for( i = 0; (( stringadimerda[i] = getchar()) != '\n'); i++ ){} 
 
@@ -16,6 +18,6 @@ int i = 0;
     i++;                                      
     }
 
-    string[i++] = '\0'; //TERMINA SEMPRE LA STRINGA con il terminatore dopo averla riempita!
-
+   string[i++] = '\0'; //TERMINA SEMPRE LA STRINGA con il terminatore dopo averla riempita!
+   printf("\nstringa: %s", string);
 }
