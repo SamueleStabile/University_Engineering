@@ -26,3 +26,5 @@ j while #jump sul label while
 
 next: li $v0, 10
 syscall
+
+.ascii "pippo"
