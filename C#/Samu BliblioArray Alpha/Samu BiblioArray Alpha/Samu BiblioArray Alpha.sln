@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samu BiblioArray Alpha", "Samu BiblioArray Alpha\Samu BiblioArray Alpha.csproj", "{92F73CA2-F0FB-4173-A365-FDA27F199841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F73CA2-F0FB-4173-A365-FDA27F199841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F73CA2-F0FB-4173-A365-FDA27F199841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F73CA2-F0FB-4173-A365-FDA27F199841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F73CA2-F0FB-4173-A365-FDA27F199841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B390D91-FD5A-4D45-9881-6D57E840FB64}
+	EndGlobalSection
+EndGlobal

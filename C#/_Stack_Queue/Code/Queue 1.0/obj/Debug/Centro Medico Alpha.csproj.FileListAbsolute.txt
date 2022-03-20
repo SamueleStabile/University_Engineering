@@ -1,0 +1,45 @@
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\20200427_coda Work In Progress\obj\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Queue Alpha 2.0 Samu\obj\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Queue 1.0\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\Queue 1.0\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Queue 1.0\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Queue 1.0\obj\Debug\Centro Medico Alpha.pdb
+D:\inf\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.exe.config
+D:\inf\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.exe
+D:\inf\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.pdb
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.exe
+D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.pdb

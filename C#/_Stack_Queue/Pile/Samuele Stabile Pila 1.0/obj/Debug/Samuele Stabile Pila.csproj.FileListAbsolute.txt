@@ -1,0 +1,18 @@
+C:\Users\Samue\Desktop\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.exe.config
+C:\Users\Samue\Desktop\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.exe
+C:\Users\Samue\Desktop\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.pdb
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele_Stabile_Pila.frmAuto.resources
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele_Stabile_Pila.Properties.Resources.resources
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.exe
+C:\Users\Samue\Desktop\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.pdb
+D:\inf\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.exe.config
+D:\inf\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.exe
+D:\inf\Samuele Stabile Pila\bin\Debug\Samuele Stabile Pila.pdb
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.csprojAssemblyReference.cache
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele_Stabile_Pila.frmAuto.resources
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele_Stabile_Pila.Properties.Resources.resources
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.csproj.GenerateResource.cache
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.exe
+D:\inf\Samuele Stabile Pila\obj\Debug\Samuele Stabile Pila.pdb

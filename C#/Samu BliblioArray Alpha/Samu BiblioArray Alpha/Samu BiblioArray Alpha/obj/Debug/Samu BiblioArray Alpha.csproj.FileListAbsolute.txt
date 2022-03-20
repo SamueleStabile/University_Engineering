@@ -1,0 +1,9 @@
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\bin\Debug\Samu BiblioArray Alpha.exe.config
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\bin\Debug\Samu BiblioArray Alpha.exe
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\bin\Debug\Samu BiblioArray Alpha.pdb
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu BiblioArray Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu_BiblioArray_Alpha.SamuForm.resources
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu_BiblioArray_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu BiblioArray Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu BiblioArray Alpha.exe
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\Samu BiblioArray Alpha\Samu BiblioArray Alpha\obj\Debug\Samu BiblioArray Alpha.pdb

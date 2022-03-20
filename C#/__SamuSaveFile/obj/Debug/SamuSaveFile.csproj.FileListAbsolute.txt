@@ -1,0 +1,27 @@
+C:\Users\3A-2018\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.exe.config
+C:\Users\3A-2018\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.exe
+C:\Users\3A-2018\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.pdb
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.csprojAssemblyReference.cache
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.Form1.resources
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.Properties.Resources.resources
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.csproj.GenerateResource.cache
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.exe
+C:\Users\3A-2018\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.pdb
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.csprojAssemblyReference.cache
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.Form1.resources
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.Properties.Resources.resources
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.csproj.GenerateResource.cache
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.exe
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\obj\Debug\SamuSaveFile.pdb
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\bin\Debug\SamuSaveFile.exe.config
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\bin\Debug\SamuSaveFile.exe
+C:\Users\3A-2018\Google Drive\Samu_Code\C#\SamuSaveFile\bin\Debug\SamuSaveFile.pdb
+C:\Users\Samue\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.exe.config
+C:\Users\Samue\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.exe
+C:\Users\Samue\Desktop\SamuSaveFile\bin\Debug\SamuSaveFile.pdb
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.Form1.resources
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.Properties.Resources.resources
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.exe
+C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.pdb

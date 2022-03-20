@@ -1,0 +1,36 @@
+C:\Users\3A-2018\Desktop\Alunni_Samu\bin\Debug\Alunni_Samu.exe.config
+C:\Users\3A-2018\Desktop\Alunni_Samu\bin\Debug\Alunni_Samu.exe
+C:\Users\3A-2018\Desktop\Alunni_Samu\bin\Debug\Alunni_Samu.pdb
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.csprojAssemblyReference.cache
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.Ciao.resources
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.Properties.Resources.resources
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.csproj.GenerateResource.cache
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.exe
+C:\Users\3A-2018\Desktop\Alunni_Samu\obj\Debug\Alunni_Samu.pdb
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\bin\Debug\Alunni_Samu.exe.config
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\bin\Debug\Alunni_Samu.exe
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\bin\Debug\Alunni_Samu.pdb
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.csprojAssemblyReference.cache
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.Ciao.resources
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.Properties.Resources.resources
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.csproj.GenerateResource.cache
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.exe
+C:\Users\3A-2018\Desktop\SamuAlunni 1.0\obj\Debug\Alunni_Samu.pdb
+C:\Users\Samue\Desktop\SamuAlunni 3.0\bin\Debug\Alunni_Samu.exe.config
+C:\Users\Samue\Desktop\SamuAlunni 3.0\bin\Debug\Alunni_Samu.exe
+C:\Users\Samue\Desktop\SamuAlunni 3.0\bin\Debug\Alunni_Samu.pdb
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.Ciao.resources
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.Properties.Resources.resources
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.exe
+C:\Users\Samue\Desktop\SamuAlunni 3.0\obj\Debug\Alunni_Samu.pdb
+D:\inf\SamuAlunni 3.0\bin\Debug\Alunni_Samu.exe.config
+D:\inf\SamuAlunni 3.0\bin\Debug\Alunni_Samu.exe
+D:\inf\SamuAlunni 3.0\bin\Debug\Alunni_Samu.pdb
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.csprojAssemblyReference.cache
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.Ciao.resources
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.Properties.Resources.resources
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.csproj.GenerateResource.cache
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.exe
+D:\inf\SamuAlunni 3.0\obj\Debug\Alunni_Samu.pdb

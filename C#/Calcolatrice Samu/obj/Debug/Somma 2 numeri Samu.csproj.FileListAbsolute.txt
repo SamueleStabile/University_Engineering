@@ -1,0 +1,36 @@
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe.config
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.pdb
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csprojAssemblyReference.cache
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Form1.resources
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Properties.Resources.resources
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csproj.GenerateResource.cache
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.exe
+C:\Users\3A-2018\source\repos\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.pdb
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe.config
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.pdb
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csprojAssemblyReference.cache
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Form1.resources
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Properties.Resources.resources
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csproj.GenerateResource.cache
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.exe
+C:\Users\3A-2018\Desktop\Samuele Stabile MonkaS\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.pdb
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe.config
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.pdb
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Form1.resources
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Properties.Resources.resources
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.exe
+C:\Users\Samue\Desktop\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.pdb
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csprojAssemblyReference.cache
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Properties.Resources.resources
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.csproj.GenerateResource.cache
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.exe
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma 2 numeri Samu.pdb
+D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe.config
+D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe
+D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.pdb
+D:\inf\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Forma_Gino.resources

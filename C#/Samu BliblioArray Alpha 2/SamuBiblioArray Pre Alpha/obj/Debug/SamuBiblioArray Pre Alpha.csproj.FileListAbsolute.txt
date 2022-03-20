@@ -1,0 +1,3 @@
+C:\Users\Samue\Desktop\SamuBiblioArray Pre Alpha\obj\Debug\SamuBiblioArray Pre Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\SamuBiblioArray Pre Alpha\obj\Debug\SamuBiblioArray_Pre_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\SamuBiblioArray Pre Alpha\obj\Debug\SamuBiblioArray Pre Alpha.csproj.GenerateResource.cache

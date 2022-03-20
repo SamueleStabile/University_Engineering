@@ -1,0 +1,83 @@
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\4A 2019\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.CoreCompileInputs.cache
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Docente1\Desktop\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_con_array_v1\Biblioteca_3\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+J:\MAT-usb\VS-2019   cs\Biblioteca_1\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\Biblioteca_array v2\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Giovanni\Desktop\Biblioteca_array v3\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+L:\MAT-usb\VS-2019   cs\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.CoreCompileInputs.cache
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.pdb
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Matrone Giovanni\Desktop\Biblioteca_array v4\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe.config
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.exe
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\bin\Debug\Biblioteca_1.pdb
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Form1.resources
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.Properties.Resources.resources
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.exe
+C:\Users\Samue\Desktop\Samu BliblioArray Alpha\BiblioArray GioMatrix\Biblioteca_array v4\Biblioteca_array v2\Biblioteca_1\obj\Debug\Biblioteca_1.pdb

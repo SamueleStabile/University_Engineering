@@ -1,0 +1,9 @@
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Centro Medico Alpha\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.csprojAssemblyReference.cache
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\Centro Medico Alpha\obj\Debug\Centro Medico Alpha.pdb
