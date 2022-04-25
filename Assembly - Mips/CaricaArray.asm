@@ -1,6 +1,6 @@
 .data
 
-vet: 	.space 40 #alloco uno spazio dedicato della dimensione di 40 byte a partire dall'indirizzo corrente 
+vet: 	.space 40 #alloco uno spazio dedicato della dimensione di 40 byte a partire dall'indirizzo corrente  
 
 .text
 	la $t0,vet 	#carico l'indirizzo dello spazio con label "vet"

@@ -3,10 +3,11 @@
 	#######################################################
 		.data
 	str: .asciiz "Porgramma per Printare Stringhe - by Samuele Stabile \n\n"
-
+	parola: .word 1023
+	
 		.text
 	#inizializzo registri per il programma
-	li $t0, 0x1A75B380					
+	lw $t0, parola					
 	li $t1, 0
 
 	#altri registri utilizzati per "print"
