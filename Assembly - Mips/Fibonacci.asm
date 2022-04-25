@@ -17,7 +17,7 @@ move $t1, $t3
 
 addi $t2,$t2,1	#incremento il registro contatore $t2 di 1 (t2++)
 
-li $v0, 1 #riempio il resgistro di sistema v0 con il codice 10 per stampare successivamente con syscall
+li $v0, 1 #riempio il resgistro di sistema v0 con il codice 1 per stampare successivamente con syscall
 move $a0, $t3 #riempio il registro con il valore della successione di Fibonacci per stamparla in I/O
 syscall
 

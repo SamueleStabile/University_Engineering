@@ -11,26 +11,22 @@
 #}
 
 .data
-x:	.word 90
+x:	.word 1
 y:	.word 9
-z:	.word 1
+z:	.word 90
 
 .text
 
 massimo:lw $s0, x # max = x
 	lw $s1, y # carico y
 	lw $s2, z # carico z
+		
+	ble $s1, $s0, next 	#if !(y <= max) 
+	lw $s0, y		#then max = y;
 	
-	
-	bgt $s1, $s0, max 	#if (y > max) 
-	j next
-max:	lw $s0, y		#then max = y;
-	
-next:	bgt $s2, $s0, max2	#if (z > max) 
-	j end
-max2:	lw $s0, z		#then max = z;
-	
-	
+next:	ble $s2, $s0, end	#if (z > max) 
+	lw $s0, z		#then max = z;
+		
 end:	li $v0, 1
 	move $a0, $s0
 	syscall

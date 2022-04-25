@@ -8,12 +8,12 @@ num: 	.word 4		#carico una word con 4 di valore
 	li $t2,0	
 	li $t3,0
 for: 	bge $t2,$t1,fine
-	lw $t4,($t0)
-	addi $t3,$t3,$t4
-	addiu $t0,$t0,4
-	addiu $t2,$t2,1
+	lw $t4,($t0)	# x = vet[pointer]
+	addi $t3,$t3,$t4 # somma = somma + x
+	addiu $t0,$t0,4	# incremento il pointer di 4 (1 word = 4 byte = 1 elemento del vettore)
+	addiu $t2,$t2,1 # i++
 	j for
-fine:	 move $a0,$t3
+fine:	move $a0,$t3 # a0 = somma , carico la somma su a0 per poterla stampare
 	li $v0,1
 	syscall
 	li $v0,10
