@@ -1,14 +1,14 @@
 .data
 vet1: .word 1,7,2,5,8,3,6,4
 rie1: .word 8
-vet2: .space 10
-mess: .asciiz "\n"
+vet2: .space 40
+space: .asciiz " \n"
 .text
- main: li $t0,0 #i
-       li $t1,0  #n2
-       lw $t2,rie1 #n1
-       la $t3 ,vet1 
-       la $t6 , vet2
+ main: li $t0,0 	# contatore i = 0
+       li $t1,0  	# contatore numeri dispari n2
+       lw $t2,rie1 	# dimensione n1
+       la $t3 ,vet1 	# address prima casella vet1
+       la $t6 ,vet2	# address prima casella vet2
 
 for:   bge $t0,$t2,next
        lw $t4 ,($t3)
@@ -32,8 +32,8 @@ vetprint:  move $s0,$t1
      for1: bge $s2,$s0,else2
            lw $s3,($s1)
            li $v0,4
-           la $a0,mess
-           syscall 
+           la $a0,space
+           syscall
            li $v0,1
            move $a0,$s3
            syscall
@@ -41,3 +41,4 @@ vetprint:  move $s0,$t1
            addi $s1,$s1,4
            j for1
     else2: jr $ra
+
