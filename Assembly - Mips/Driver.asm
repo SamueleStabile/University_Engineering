@@ -17,7 +17,7 @@ for_stampa:
     lbu $s1, ($s0)
     beq $s1, $0, end_for_stampa
     move $a0, $s1
-    jal putc
+    jal putc 
     addiu $s0, $s0, 1
     j for_stampa
  
@@ -42,12 +42,13 @@ syscall
 # GESTIONE DELLA KEYBOARD
 getc:
 #    v0 = byte ricevuto
-    li $t0, 0xffff0000
+    li $t0, 0xffff0000    
     gcloop:
         lw $t1, 0 ($t0)
         # LSB ctrl reg ==> READY
         andi $t1,$t1, 0x0001
         beq $t1, $0, gcloop
+        #SI
     lw $v0, 4($t0)
     jr $ra
  
@@ -59,5 +60,6 @@ putc:
         lw $t1,0($t0)
         andi $t1,$t1, 0x0001
         beq $t1, $0, pcloop
+        #SI
     sw $a0, 4($t0)
     jr $ra

@@ -14,7 +14,7 @@ for:   bge $t0,$t2,next
        lw $t4 ,($t3)
        andi $t5,$t4,1
        bne $t5,1,else
-       sw $t4 ,($t6) #assorbomimento di vet1 in vet2
+       sw $t4 ,($t6) #assorbomimento di vet1 in vet2  vet2[i]= vet1[i]
        addi $t1,$t1,1 #incremento di n2
        addi $t6,$t6,4 #incremento di 4 del puntatore di vet2 che serve a scorrere word per word
  else: addi $t0,$t0,1 #incremento di i
