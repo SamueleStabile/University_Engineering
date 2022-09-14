@@ -40,9 +40,9 @@ vetprint:	li $t1, 0 # i = 0
 		lw $t2, ($a1)		# prendo in t2 il valore puntato di a1 (che sarebbe vet2 in questo caso) (precaricato prima della chiamata a funzione)
 		
 		#stampo numero in vet2
-		li $v0, 1		
-		move $a0, $t2
-		syscall
+		li $v0,4
+           	la $a0,space
+           	syscall
 		#stampo "\n"
 		li $v0,4
            	la $a0,space
