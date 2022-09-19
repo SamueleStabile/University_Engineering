@@ -14,10 +14,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
- 
-/*
- * 
- */
 
 int *doubler(int *z, int n);
  
@@ -26,21 +22,21 @@ int main(int argc, char** argv) {
     system("cls");
     printf("\n-- Samuele Stabile 19 Settembre 2022 --\n\n");
     int v[10]={1,2,3,4,5,6,7,8,9,10}; //vettore con elementi consecutivi
-    int m, i;
-    int *p;
+    int m, i; 
+    int *p = NULL; //inizializziamo il puntatore vuoto anche se non necessario
     
     do {
         printf("Inserisci il numero dei valori da raddoppiare (0 a 10): ");
         scanf("%d", &m);
     } while(m > 10 || m < 0);
     
-    printf("\nVettore Originale: [ ");
+    printf("\nVettore Originale: [ "); //stampo vettore originale
     for(i=0;i<10;i++)
         printf("%d ",v[i]);
 
     printf("]\n");
     
-    p = doubler(v, m);
+    p = doubler(v, m); // richiamo la funzione doubler passando il vettore e gli n elementi da raddoppiare
     
    
     printf("Vettore Doubled: [ ");
@@ -57,11 +53,11 @@ int main(int argc, char** argv) {
     return (EXIT_SUCCESS);
 }
 
-int *doubler(int *z, int n) {
+int *doubler(int *z, int n) { // uso *z perchè altrimenti non potrei passare un vettore ad una funzione
     int i;
     
     for(i=0;i<n;i++)
-        z[i]=z[i]*2;
+        z[i]=z[i]*2; //raddoppio l'elemento corrente
     
-    return &z[i];
+    return &z[i]; //ritorno l'indirizzo di z[i] che in quel momento sarà puntato all'ultimo elemento convertito
 }
