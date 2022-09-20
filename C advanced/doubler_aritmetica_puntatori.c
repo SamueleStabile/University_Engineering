@@ -61,6 +61,5 @@ int *doubler(int *z, int n) { // uso *z perchè altrimenti non potrei passare un
         z++;    //incrmento l'indirizzo di memoria che punta alla prima cella "0061FEF0" che aumenta di 8 ogni volta (var int ==4bytes==32bit)
         //printf("DEBUG: %p \n",z); uncommenta questo per vedere il valore dell'indirizzo ad ogni ciclo del for
     }
-
     return z; //ritorno la variabile z che in quel momento contiene l'indirizzo dell'ultimo elemento
 }
