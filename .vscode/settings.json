@@ -34,5 +34,6 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ]
+  ],
+  "cmake.sourceDirectory": "${workspaceFolder}/CLion Debugger Samu"
 }

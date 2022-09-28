@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CLion_Debugger_Samu.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\CLion_Debugger_Samu.dir/objects.a @CMakeFiles\CLion_Debugger_Samu.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CLion_Debugger_Samu.dir/objects.a -Wl,--no-whole-archive -o CLion_Debugger_Samu.exe -Wl,--out-implib,libCLion_Debugger_Samu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CLion_Debugger_Samu.dir\linklibs.rsp
