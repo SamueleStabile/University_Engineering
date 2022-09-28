@@ -18,7 +18,7 @@
 int *doubler(int *z, int n);
  
 int main(int argc, char** argv) {
-    
+     
     system("cls");
     printf("\n-- Samuele Stabile 19 Settembre 2022 --\n\n");
     int v[10]={1,2,3,4,5,6,7,8,9,10}; //vettore con elementi consecutivi

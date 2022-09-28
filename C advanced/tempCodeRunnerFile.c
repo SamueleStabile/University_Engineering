@@ -1,1 +1,2 @@
-    int v[10]={1,2,3,4,5,6,7,8,9,10}; //vettore con elementi consecutivi
+muele Stabile 28 Settembre 2022
+#include <stdio.h>
