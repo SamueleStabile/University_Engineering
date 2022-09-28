@@ -1,1 +1,1 @@
-    } while(m > 10 || m < 0);
+    int *p = NULL; //inizializziamo il puntatore vuoto anche se non necessario
