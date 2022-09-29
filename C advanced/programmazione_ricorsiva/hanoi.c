@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
+void Hanoi( int *O, int *I, int *D, int n);
+
 void printTower(int *T1, int *T2, int *T3, int n){
-    printf("\nTORRE 1: ");
+    printf("\n\n\nTORRE 1: ");
     for (int i = 0; i < n; i++){
         printf("%d ",T1[i]);
     }
@@ -17,8 +19,10 @@ void printTower(int *T1, int *T2, int *T3, int n){
     }
 }
 int main(int argc, char** argv){
-    // int n = atoi(argv[1]);
-    int n = 5;
+
+    //int n = atoi(argv[1]); aggiungere n alla fine del comando del terminale
+
+    int n = 3;
 
     int *O = calloc(n, sizeof(int));
     int *I = calloc(n, sizeof(int));
@@ -32,18 +36,24 @@ int main(int argc, char** argv){
         I[i] = 0;
     }
     printTower(O,I,D,n);
-    //Hanoi
+
+    Hanoi(O,I,D,n);
+
     printTower(O,I,D,n);
     free(O);
     free(I);
     free(D);
-}
-
-void Hanoi( int *O, int *I, int *D, int n){
-    if (n == 1){
-        D[0] = O[0];
-        O[0] = 0;
-        I[0] = 0;
     }
-}
+
+    void Hanoi( int *O, int *I, int *D, int n){
+        if (n == 1){
+            D[0] = O[0];
+            O[0] = 0;
+            return;
+        }
+        Hanoi(O + 1, D , I, n-1);
+        Hanoi(O,I,D,1);
+        Hanoi(I,O,D+1, n-1);
+        
+    }
 
