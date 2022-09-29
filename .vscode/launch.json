@@ -1,48 +1,13 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-        },
-        {
-            "name": "(lldb) Associa",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
-            "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
-        },
-        {
-            "name": "(lldb) Associa",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
-            "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
-        },
-        {
-            "name": "(lldb) Associa",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
-            "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
-        },
-        {
-            "name": "C/C++: gcc.exe build and debug active file",
+            "name": "C/C++: gcc.exe compilare ed eseguire il debug del file attivo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
@@ -50,18 +15,17 @@
             "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
             "setupCommands": [
                 {
-                    "description": "Enable pretty-printing for gdb",
+                    "description": "Abilita la riformattazione per gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 },
                 {
-                    "description": "Set Disassembly Flavor to Intel",
+                    "description": "Imposta Versione Disassembly su Intel",
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: gcc.exe build active file"
+            "preLaunchTask": "C/C++: gcc.exe compila il file attivo"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }

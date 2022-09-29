@@ -1,2 +1,1 @@
-muele Stabile 28 Settembre 2022
-#include <stdio.h>
+    int *p = NULL; //inizializziamo il puntatore vuoto anche se non necessario

@@ -1,0 +1,1 @@
+        printf("Inserire cifra binaria: ");
