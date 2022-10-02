@@ -20,9 +20,9 @@ void printTower(int *T1, int *T2, int *T3, int n){
 }
 int main(int argc, char** argv){
 
-    //int n = atoi(argv[1]); aggiungere n alla fine del comando del terminale
+    int n = atoi(argv[1]); //aggiungere n alla fine del comando del terminale
 
-    int n = 3;
+    //int n = 3;
 
     int *O = calloc(n, sizeof(int));
     int *I = calloc(n, sizeof(int));
