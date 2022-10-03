@@ -15,16 +15,17 @@ int main(int argc, char **argv){
     strcpy(parola, argv[1]);
     int n = strlen(parola);
 
-    printf("string debug: [%s]", parola);
+    printf("\nstring debug: [%s]\n", parola);
+    printf("N debug: [%d]\n", n);
 
     //UNCOMMENTA per prendere l'output dal programma e non dall'argv[]
     //char parola[] = "osso";
     //int n = sizeof(parola) - 2; // sizof(parola) sará ugale a 5 perché anna + /0 carattere terminatore
     //il contatore della parola andrá da 0 a 3
 
-    printf("\n\nDimension of [%s] is [%d]\n", parola, n);
+    printf("\nDimension of [%s] is [%d]\n", parola, n);
 
-    if(Palindroma(parola, n-1)){ //se Palindroma() restituisce 1 | n-1 per togliere il carattere terminatore /0
+    if(Palindroma(parola, n)){ //se Palindroma() restituisce 1 | n-1 per togliere il carattere terminatore /0
         printf("La Stringa [%s] e' palindroma\n", parola);
     }else{                      //se Palidnroma() restituisce 0
         printf("Non Palindroma");
@@ -32,15 +33,12 @@ int main(int argc, char **argv){
 }
 
 int Palindroma(char *parola, int n){
-
-    if(parola[i] != parola[n]){
+    if(n==1 || n==0){ //caso base
+        return 1;
+    }
+    if(parola[0] != parola[n-1]){
         //La stringa non é Palindroma
         return 0;
     }
-    if(n<i){ //caso base
-        //La String é Palindroma
-        return 1;
-    }
-    i++;
-    Palindroma(parola,n-1);
+    return Palindroma(parola+1,n-2); //escludo i due caratteri confrontati e punto il nuovo primo char di parola
 }
