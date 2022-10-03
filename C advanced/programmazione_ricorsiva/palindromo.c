@@ -4,7 +4,6 @@
 #include <assert.h>
 #include <string.h>
 #define LEN 50
-int i = 0;
 
 int Palindroma(char *parola, int n);
 
@@ -28,17 +27,17 @@ int main(int argc, char **argv){
     if(Palindroma(parola, n)){ //se Palindroma() restituisce 1 | n-1 per togliere il carattere terminatore /0
         printf("La Stringa [%s] e' palindroma\n", parola);
     }else{                      //se Palidnroma() restituisce 0
-        printf("Non Palindroma");
+        printf("[Non Palindroma]\n");
     }
 }
 
 int Palindroma(char *parola, int n){
     if(n==1 || n==0){ //caso base
-        return 1;
+        return 1; 
     }
     if(parola[0] != parola[n-1]){
         //La stringa non é Palindroma
         return 0;
     }
-    return Palindroma(parola+1,n-2); //escludo i due caratteri confrontati e punto il nuovo primo char di parola
+    return Palindroma(parola+1,n-2); //escludo i due caratteri confrontati e punto il nuovo primo di parola
 }

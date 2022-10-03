@@ -54,6 +54,14 @@ build CMakeFiles/CLion_Debugger_Samu.dir/main.c.o: C_COMPILER__CLion_Debugger_Sa
   TARGET_COMPILE_PDB = CMakeFiles/CLion_Debugger_Samu.dir/
   TARGET_PDB = CLion_Debugger_Samu.pdb
 
+build CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o: C_COMPILER__CLion_Debugger_Samu_Debug /Users/samuelestabile/Desktop/University_Engineering/CLion$ Debugger$ Samu/debugsamu.c || cmake_object_order_depends_target_CLion_Debugger_Samu
+  DEP_FILE = CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/CLion_Debugger_Samu.dir
+  OBJECT_FILE_DIR = CMakeFiles/CLion_Debugger_Samu.dir
+  TARGET_COMPILE_PDB = CMakeFiles/CLion_Debugger_Samu.dir/
+  TARGET_PDB = CLion_Debugger_Samu.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CLion_Debugger_Samu
@@ -62,7 +70,7 @@ build CMakeFiles/CLion_Debugger_Samu.dir/main.c.o: C_COMPILER__CLion_Debugger_Sa
 #############################################
 # Link the executable CLion_Debugger_Samu
 
-build CLion_Debugger_Samu: C_EXECUTABLE_LINKER__CLion_Debugger_Samu_Debug CMakeFiles/CLion_Debugger_Samu.dir/main.c.o
+build CLion_Debugger_Samu: C_EXECUTABLE_LINKER__CLion_Debugger_Samu_Debug CMakeFiles/CLion_Debugger_Samu.dir/main.c.o CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CLion_Debugger_Samu.dir
   POST_BUILD = :

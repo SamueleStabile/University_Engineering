@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CLion_Debugger_Samu.exe"
-		},
-		{
-			"path" : "CLion_Debugger_Samu.pdb"
+			"path" : "CLion_Debugger_Samu"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -55,7 +52,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -71,16 +69,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "CLion_Debugger_Samu",
-	"nameOnDisk" : "CLion_Debugger_Samu.exe",
+	"nameOnDisk" : "CLion_Debugger_Samu",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,7 +86,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -102,6 +97,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "debugsamu.c",
 			"sourceGroupIndex" : 0
 		}
 	],
