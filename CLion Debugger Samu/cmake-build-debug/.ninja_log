@@ -1,20 +1,7 @@
 # ninja log v5
-0	188	1664457510408656524	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-188	264	1664457510486740515	CLion_Debugger_Samu	383fc024b1b2c8c7
-0	115	1664790353230881931	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-1	116	1664790353230883514	CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o	194b9bc74f264a21
-0	198	1664790405878119112	CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o	194b9bc74f264a21
-0	69	1664790409034750781	CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o	194b9bc74f264a21
 1	161	1664790437041315826	CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o	194b9bc74f264a21
-1	243	1664790437125052946	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-243	323	1664790437204957002	CLion_Debugger_Samu	8037d89b8c09adbe
-0	262	1664790500094493308	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-262	343	1664790500178099679	CLion_Debugger_Samu	8037d89b8c09adbe
-0	212	1664790522060670038	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-212	282	1664790522132682304	CLion_Debugger_Samu	8037d89b8c09adbe
-0	269	1664790566112055471	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-270	359	1664790566203597758	CLion_Debugger_Samu	8037d89b8c09adbe
-0	189	1664790579691585710	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-190	265	1664790579769223552	CLion_Debugger_Samu	8037d89b8c09adbe
-0	70	1664790588101627203	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
 70	128	1664790588160598260	CLion_Debugger_Samu	8037d89b8c09adbe
+0	70	1664790588101627203	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
+1	117	1664791447262956816	build.ninja	3e1a24939e27c8d1
+1	245	1664791447521697744	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
+245	319	1664791447597892368	CLion_Debugger_Samu	383fc024b1b2c8c7
