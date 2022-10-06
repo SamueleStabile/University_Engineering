@@ -4,7 +4,8 @@
     "stdbool.h": "c",
     "random": "c",
     "limits": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "chrono": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
