@@ -13,6 +13,8 @@ int main(int argc, char **argv){
     char parola[LEN+1];
     strcpy(parola, argv[1]);
     int n = strlen(parola);
+    // gcc palindromo.c -o palindromo
+    // ./palindromo.exe [arg value]
 
     printf("\nstring debug: [%s]\n", parola);
     printf("N debug: [%d]\n", n);
