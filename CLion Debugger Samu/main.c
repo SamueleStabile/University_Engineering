@@ -33,7 +33,7 @@ int Palindroma(char *parola, int n){
     if(n==1 || n==0){ //caso base
         return 1;
     }
-    if(parola[0] != parola[n-1]){
+    if(parola[0] != parola[n-1]){x
         //La stringa non é Palindroma
         return 0;
     }

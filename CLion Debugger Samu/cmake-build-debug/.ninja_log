@@ -1,7 +1,5 @@
 # ninja log v5
 1	161	1664790437041315826	CMakeFiles/CLion_Debugger_Samu.dir/debugsamu.c.o	194b9bc74f264a21
-70	128	1664790588160598260	CLion_Debugger_Samu	8037d89b8c09adbe
-0	70	1664790588101627203	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
-1	117	1664791447262956816	build.ninja	3e1a24939e27c8d1
-1	245	1664791447521697744	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
 245	319	1664791447597892368	CLion_Debugger_Samu	383fc024b1b2c8c7
+1	245	1664791447521697744	CMakeFiles/CLion_Debugger_Samu.dir/main.c.o	2c6a31c40befe05c
+1	117	1666098425362028462	build.ninja	3e1a24939e27c8d1
