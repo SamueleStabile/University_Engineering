@@ -33,9 +33,9 @@ int Palindroma(char *parola, int n){
     if(n==1 || n==0){ //caso base
         return 1;
     }
-    if(parola[0] != parola[n-1]){
+    if(parola[0] != parola[n-1]&& parola[1] != parola[n-2]){
         //La stringa non é Palindroma
         return 0;
     }
-    return Palindroma(parola+1,n-2); //escludo i due caratteri confrontati e punto il nuovo primo di parola
+    return Palindroma(parola+2,n-4); //escludo i due caratteri confrontati e punto il nuovo primo di parola
 }
