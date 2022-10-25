@@ -1,0 +1,10 @@
+# ninja log v5
+0	111	6884224605788932	CMakeFiles/Strutture_Dati.dir/main.c.obj	7b9f7164cf841266
+1	118	6884229825339247	build.ninja	98a8bac57a4b14b9
+2	86	6884229840979912	CMakeFiles/Strutture_Dati.dir/TInfo.c.obj	5371a5d777b7a1b6
+5	87	6884229840969905	CMakeFiles/Strutture_Dati.dir/TList.c.obj	8ce15e144a40e1dd
+87	176	6884229841849930	Strutture_Dati.exe	d783445b12e4c28c
+2	75	6884231493097219	CMakeFiles/Strutture_Dati.dir/main.c.obj	7b9f7164cf841266
+75	164	6884231493957217	Strutture_Dati.exe	d783445b12e4c28c
+3	81	6884232760396703	CMakeFiles/Strutture_Dati.dir/main.c.obj	7b9f7164cf841266
+81	173	6884232761276690	Strutture_Dati.exe	d783445b12e4c28c
