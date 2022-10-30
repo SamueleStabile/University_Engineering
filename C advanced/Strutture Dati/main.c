@@ -9,18 +9,19 @@ bool list_is_empty(TList L){
     return L==NULL ;
 }
 
-//VERSIONE ITERATIVA
-TInfo Minimo(TList list){
-    TInfo min = list->info; //inizializzo ilprint primo minimo
-    while(!list_is_empty(list)){
-        //ciclo di ricerca del minimo
-        if(infoLess(list->info,min)){
-            min = list->info;
+TList listDupEven(TList list){
+    // caso base
+    TList ret = listCreate();
+    while(!(list == NULL)){
+        if(list->info%2==0){
+            ret = listAdd(ret, list->info);
         }
+        ret = listAdd(ret, list->info);
         list = list->link;
-    }//------fine ciclo
-    return min;
+    }
+    return ret;
 }
+//VERSIONE RICORSIVA
 
 int main(int argc, char **argv){
 
@@ -31,7 +32,9 @@ int main(int argc, char **argv){
     }
     printf("\nLISTA: ");
     listPrint(list);
-    printf("\nVALORE MINIMO LISTA: %d",Minimo(list));
+    printf("\nLISTA: ");
+    listPrint(listDupEven(list));
+
 }
 
 
