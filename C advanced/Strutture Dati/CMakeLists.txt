@@ -3,5 +3,5 @@ project(Strutture_Dati C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Strutture_Dati main.c TInfo.h TList.h TInfo.c TList.c)
+add_executable(Strutture_Dati main.c TInfo.h TList.h TInfo.c TList.c TArray.c TArray.h)
 

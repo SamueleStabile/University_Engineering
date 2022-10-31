@@ -59,12 +59,36 @@ TList listDupEvenRecursive(TList list){
     return ret; //ritorno la lista aggiornata
 }
 
+bool infoEven(TInfo info){
+    return info%2==0;
+}
+//Versione alternativa ricorsiva
+TList listDupEven3(TList list){
+
+    if(list == NULL){
+        return 0;
+    }
+
+    TList return_list = listDupEven3(list->link);
+
+    if(infoEven(list->info)){
+        TNode* new = nodeCreate(list->info);
+        new->link = list->link; //assorbo il link del prossimo elemento
+        list->link = new; //metto nel prossimo elemento il valore di new (che in questo momento new=info)
+        list = new->link; //INCRMENTO: aggiorno la lista impostanto come prossimo elemento il nuovo nodo creato
+        
+    }else{
+        list = list->link; //INCREMENTO: la lista
+    }
+
+}
+
 int main(int argc, char **argv){
 
     TList list = listCreate(); //creo la lista de
 
     for( int i = 0; i<20; i++){ //riempio la lista in modo ORDINATO tramite listInsert
-    list = listInsert(list, rand()%100);
+    list = listInsert(list, rand()%1000);
     //printf("\n");
     //listPrint(list);
     } 
@@ -74,6 +98,8 @@ int main(int argc, char **argv){
     listPrint(listDupEven(list));
     printf("\nLISTA RICORSIVA: ");
     listPrint(listDupEvenRecursive(list));
+    printf("\nLISTA METODO 3: ");
+    listPrint(listDupEven3(list));
     
     
 }

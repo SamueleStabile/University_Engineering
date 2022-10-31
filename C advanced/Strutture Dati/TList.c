@@ -1,172 +1,197 @@
-/*
- * TList: lista ordinata
- */
+/******************************************************************************
+
+SIMULAZIONE PROVA MID-TERM
+
+Dato un array dinamico arr, già popolato, il cui tipo degli elementi, ovvero
+TInfo, è definito come INT, e messe a disposizione le funzioni per la gestione
+delle strutture dati TList (lista ordinata), TArray (array dinamico) e una
+funzione per inserire un elemento in posizione arbitraria in una lista,
+si chiede di progettare e implementare le seguenti tre funzioni:
+
+>> TList popolaListaDaArray (TArray arr)
+    La funzione prende in input l’array dinamico e restituisce una lista
+    ordinata contenente gli elementi di arr.
+    Di tale funzione, si chiede una implementazione iterativa
+    (non verranno valutate versioni ricorsive).
+
+>> TInfo sommaDispari (TLista list)
+    La funzione prende in input la lista e restituisce la somma dei soli
+    elementi dispari della lista. Utilizzare una funzione ausiliaria
+    infoAdd per sommare due TInfo.
+    Di tale funzione, si chiede una implementazione ricorsiva
+    (non verranno valutate versioni iterative).
+
+>> TList estraiSottoLista (TList list, TInfo v)
+    La funzione prende in input una lista NON ordinata e restituisce una
+    nuova lista contenente soltanto gli elementi il cui campo TInfo è
+    inferiore all’input v. Si testi questa funzione costruendo nel main.c una
+    lista non ordinata costruita utilizzando la funzione listInsertAt.
+    Di tale funzione, si chiede una implementazione ricorsiva
+    (non verranno valutate versioni iterative).
+
+Nota: L’unico file da consegnare è il file main.c
+Eventuali funzioni di appoggio che dovessero essere utili o necessarie,
+devono essere implementate nel file main.c
+
+Non saranno valutate funzioni implementate:
+- in altri file;
+- violando le specifiche progettuali (es. funzione iterativa anziché ricorsiva)
+
+*******************************************************************************/
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <assert.h>
+#include "TArray.h"
 #include "TList.h"
 
-/* operazioni sui nodi */
 
-TNode *nodeCreate(TInfo info) {
-    TNode *new = malloc (sizeof(TNode));
-    if (new != NULL) {
-        new->info = info;
-        new->link = NULL;
+//***********       FUNZIONI FORNITE ALLO STUDENTE       ***********************
+TList listInsertAt(TList l, TInfo info, int pos){
+    /*
+    Inserisce un elemento nella lista alla posizione indicata
+    o in coda se la lista è troppo corta.
+    Può generare liste NON ordinate.
+    */
+
+    // caso base
+    if (pos==0 || l==NULL){
+        TNode* new = nodeCreate(info);
+        new->link = l;
+        return new;
     }
-    return new;
+
+    // combine              divide
+    l->link = listInsertAt(l->link, info, pos-1);
+    return l;
 }
 
-void nodeDestroy(TNode *node) {
-    free (node);
+TInfo infoGet(){
+    TInfo info;
+    scanf("%d", &info);
+    return info;
 }
 
-/* operazioni sulle liste */
 
-TList listCreate() {
-    return NULL;
-}
-/*
-TList listDestroy(TList list) {
-    TNode *node;
-    while (list != NULL) {
-        node = list;
-        list = list->link;
-        nodeDestroy(node);
+//***********       FUNZIONI RICHIESTE ALLO STUDENTE       *********************
+
+TList popolaListaDaArray (TArray arr){
+    TList list = listCreate();
+
+    for(int i = 0; i < arr.length; i++){
+        list = listInsert(list, arr.items[i]);
     }
     return list;
-}*/
-/* versione ricorsiva*/
-TList listDestroy(TList list) {
-        if (list != NULL) {
-                TNode *node=list;
-		TList l=list->link;
-                nodeDestroy(node);
-                listDestroy(l);
-        }
-        return list;
-}
+    /*
+    La funzione prende in input l’array dinamico e restituisce una lista
+    ordinata contenente gli elementi di arr.
+    Di tale funzione, si chiede una implementazione iterativa
+    (non verranno valutate versioni ricorsive).
+    */
 
-/*
-void listPrint(TList list) {
-    if (list != NULL) {
-        infoPrint (list->info);
-        listPrint (list->link);
+}
+TList popolaListaDaArrayRecursive (TArray* arr){
+
+
+    if(arr->length == 0){
+        return 0;
     }
-    else 
-        printf ("\n");
-}
-*/
-/* versione iterativa */
-void listPrint(TList list) {
-	while (list!=NULL) {
-		infoPrint(list->info);
-		list=list->link;
-	}
+
+    TList list = popolaListaDaArrayRecursive(arr++);
+
+    list->info = listInsert(list, arr->items[0]);
+    list = list->link;
+    return list;
 
 }
 
 
-/*
-TNode *listSearch(TList list, TInfo info) {
-    if (list == NULL || infoGreater(list->info, info)) 
-        return NULL;
-    if (infoEqual(list->info, info))
-        return list;
-    return listSearch(list->link, info);
-}
-*/
+TInfo sommaDispari (TList list){
 
-/* versione iterativa */
+    TInfo sum = 0;
 
-TNode *listSearch(TList list, TInfo info) {
-	while (list!=NULL && infoLess(list->info,info))
-		list=list->link;
-	if (list!=NULL && infoEqual(info,list->info)==1)
-		return list;
-	return NULL;
-}
-
-/*
-
-TList listInsert(TList l, TInfo info) {
-    if (l == NULL || infoGreater(l->info, info)) {
-        TNode *node = nodeCreate(info);
-        assert (node != NULL);
-        node->link = l;
-        return node;
+    if(list == NULL){
+        return 0;
     }
-    l->link = listInsert(l->link, info);
-    return l;
-}
 
-*/
-/* versione iterativa */
-TList listInsert(TList l, TInfo info) {
-	TNode *p=NULL;
-	TNode *n=l;	
-	while(n!=NULL && infoLess(n->info,info)) {
-		p=n;
-		n=n->link;
-	}
-        TNode *node = nodeCreate(info);
-        assert (node != NULL);
-	if (p!=NULL) {
-		p->link=node;
-		node->link=n;
-		return l;
-		}
-	node->link=l;
-	return node;
-	
-}
-TList listAdd(TList l, TInfo info){ //inserisice elementi nella lista in maniera non ordinata
-    TNode *p=NULL;
-	TNode *n=l;	
+    sum = sommaDispari(list->link);
 
-    TNode *node = nodeCreate(info);
-    assert (node != NULL);
-	
-    if (p!=NULL) {
-		p->link=node;
-		node->link=n;
-		return l;
-		}
-	node->link=l;
-	return node;    
-}   
-/*
+    if(!(list->info%2==0)){
+        printf("\n[dispari %d]", list->info);
+        sum = infoAdd(sum,list->info);
 
-
-TList listDelete(TList l, TInfo info) {
-    if (l == NULL || infoGreater(l->info, info)) 
-        return l;
-    if (infoEqual(l->info, info)) {
-        TList m = l->link;
-        nodeDestroy(l);
-        return m;
     }
-    l->link = listDelete(l->link, info);
-    return l;
+    return sum;
+
+    /*
+    La funzione prende in input la lista e restituisce la somma dei soli
+    elementi dispari della lista. Utilizzare una funzione ausiliaria
+    infoAdd per sommare due TInfo.
+    Di tale funzione, si chiede una implementazione ricorsiva
+    (non verranno valutate versioni iterative).
+    */
 }
 
 
-*/ 
-TList listDelete(TList l, TInfo info) {
-	TNode *p=NULL;
-	TNode *n=l;	
-	while(n!=NULL && infoLess(n->info,info)) { 
-		p=n;
-		n=n->link;
-	}
-	if (l!=NULL)
-		if (infoEqual(n->info,info)==1) {
-			if (n==l)
-				l=l->link;
-			else
-				p->link=n->link;
-			nodeDestroy(n);		
-		}
-	return l;
+TList estraiSottoLista (TList l, TInfo v){
+
+    if(l == NULL){
+        return 0;
+    }
+    TList ret = estraiSottoLista(l->link,v);
+
+    if(infoLess(l->info,v)){
+        ret = listInsertAt(ret, l->info,0);
+    }
+    return ret;
+
+
+    /*
+    La funzione prende in input una lista NON ordinata e restituisce una
+    nuova lista contenente soltanto gli elementi il cui campo TInfo è
+    inferiore all’input v. Si testi questa funzione costruendo nel main.c una
+    lista non ordinata costruita utilizzando la funzione listInsertAt.
+    Di tale funzione, si chiede una implementazione ricorsiva
+    (non verranno valutate versioni iterative).
+    */
+}
+
+
+int main (int argc, char *argv[])
+{
+    int n;
+    TArray array;
+    TInfo info;
+
+    printf("Inserisci il numero di elementi della lista: ");
+    scanf("%d", &n);
+    array = arrayCreate(n);
+
+    for (int i=0; i<n; i++){
+        printf("- inserisci l'elemento di posto %d: ", i);
+        arraySet(&array, i, infoGet());
+    }
+    printf("Array: ");
+    arrayPrint(&array);
+
+    TList ordered_list = popolaListaDaArray(array);
+    printf("\nLista ordinata: " );
+    listPrint(ordered_list);
+
+
+
+    TList unordered_list = listCreate();
+    for (int i=0; i<n; i++)
+        unordered_list = listInsertAt(unordered_list, arrayGet(&array, i), i);
+
+    printf("\nLista NON ordinata: " );
+    listPrint(unordered_list);
+
+    printf("\nSomma dispari: %d", sommaDispari(ordered_list));
+    printf("\nSomma dispari: %d", sommaDispari(unordered_list));
+
+    printf("\nInserisci il valore limite: ");
+    info = infoGet();
+    TList unordered_sublist = estraiSottoLista(unordered_list, info);
+    printf("\nSotto lista: "); listPrint(unordered_sublist);
+    return 0;
 }

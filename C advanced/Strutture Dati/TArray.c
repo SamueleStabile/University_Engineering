@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "ArrayDinamico.h"
+#include "TArray.h"
 #include "TInfo.h"
 
 #define C_EXP 5  // costante di espansione

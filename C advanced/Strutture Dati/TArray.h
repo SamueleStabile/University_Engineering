@@ -1,5 +1,5 @@
-#ifndef ARRAYDINAMICO_H
-#define ARRAYDINAMICO_H
+#ifndef TARRAY_H
+#define TARRAY_H
 
 /*
  * TArray: array dinamico

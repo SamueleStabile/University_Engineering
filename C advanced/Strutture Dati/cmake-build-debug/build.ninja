@@ -67,6 +67,12 @@ build CMakeFiles/Strutture_Dati.dir/TList.c.obj: C_COMPILER__Strutture_Dati_Debu
   OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
   OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
 
+build CMakeFiles/Strutture_Dati.dir/TArray.c.obj: C_COMPILER__Strutture_Dati_Debug E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/TArray.c || cmake_object_order_depends_target_Strutture_Dati
+  DEP_FILE = CMakeFiles\Strutture_Dati.dir\TArray.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Strutture_Dati
@@ -75,7 +81,7 @@ build CMakeFiles/Strutture_Dati.dir/TList.c.obj: C_COMPILER__Strutture_Dati_Debu
 #############################################
 # Link the executable Strutture_Dati.exe
 
-build Strutture_Dati.exe: C_EXECUTABLE_LINKER__Strutture_Dati_Debug CMakeFiles/Strutture_Dati.dir/main.c.obj CMakeFiles/Strutture_Dati.dir/TInfo.c.obj CMakeFiles/Strutture_Dati.dir/TList.c.obj
+build Strutture_Dati.exe: C_EXECUTABLE_LINKER__Strutture_Dati_Debug CMakeFiles/Strutture_Dati.dir/main.c.obj CMakeFiles/Strutture_Dati.dir/TInfo.c.obj CMakeFiles/Strutture_Dati.dir/TList.c.obj CMakeFiles/Strutture_Dati.dir/TArray.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
