@@ -56,7 +56,7 @@ TInfo MaxRecursive(TList list){
         return 0;
     }
 
-    max =MaxRecursive(list->link);
+    max = MaxRecursive(list->link);
 
     if(infoGreater(list->info,max)){
         max = list->info;

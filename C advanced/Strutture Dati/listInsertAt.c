@@ -20,14 +20,13 @@ bool list_is_empty(TList L){
 }
 
 TList listInsertAt(TList list, TInfo info, int pos){
-    // caso base
+
     if (pos==0 || list==NULL){ //una volta arrivati al caso base
         TNode* new = nodeCreate(info); //creaimo un nuovo nodo e linkiamo la vecchia lista ad esso
         new->link = list; //linkiamo il resto della lista al nodo
         return new; //ora restituiamo il nuovo nodo che andrá a finire in riga21 list->link = new
     }
     
-    // combine              divide
     list->link = listInsertAt(list->link, info, pos-1); //scorriamo il vettore fino ad arrivare al caso base
     return list;
 }
