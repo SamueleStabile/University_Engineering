@@ -20,7 +20,3 @@ int infoLess (TInfo info1, TInfo info2) {
 void infoPrint (TInfo info) {
     printf ("%d ", info);
 }
-
-int infoAdd (TInfo info1, TInfo info2) {
-    return (info1+info2); //Aggiunta
-}

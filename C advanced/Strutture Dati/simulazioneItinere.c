@@ -90,8 +90,6 @@ TList popolaListaDaArray (TArray arr){
     
 }
 
-
-
 TInfo sommaDispari (TList list){
 
     TInfo sum = 0; 

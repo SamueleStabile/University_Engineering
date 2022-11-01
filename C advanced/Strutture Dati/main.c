@@ -17,7 +17,6 @@ output list = 10 10 10 10 10 10
 #include <stdlib.h>
 #include "TList.h"
 #include "TInfo.h"
-#include "TArray.h"
 #include <stdbool.h>
 
 bool list_is_empty(TList L){
