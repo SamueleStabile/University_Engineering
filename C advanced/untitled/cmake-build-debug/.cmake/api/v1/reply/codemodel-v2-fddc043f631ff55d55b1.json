@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Strutture_Dati",
+					"name" : "untitled",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Strutture_Dati::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Strutture_Dati-Debug-d91e2603e54d98596f46.json",
-					"name" : "Strutture_Dati",
+					"id" : "untitled::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled-Debug-0e8097009f0ff537622c.json",
+					"name" : "untitled",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/Code/University_Engineering/C advanced/Strutture Dati/cmake-build-debug",
-		"source" : "E:/Code/University_Engineering/C advanced/Strutture Dati"
+		"build" : "E:/Code/University_Engineering/C advanced/untitled/cmake-build-debug",
+		"source" : "E:/Code/University_Engineering/C advanced/untitled"
 	},
 	"version" : 
 	{

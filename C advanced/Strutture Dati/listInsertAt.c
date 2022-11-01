@@ -42,7 +42,7 @@ int main(int argc, char **argv){
     printf("\nLISTA: ");
     listPrint(list);
     listInsertAt(list,69,5); //sostituisco 69 al posto 5
-    printf("\nLISTA: ");
+    printf("\nLISTA NUOVA: ");
     listPrint(list);
 }
 

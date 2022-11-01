@@ -6,7 +6,9 @@
     "limits": "c",
     "stdio.h": "c",
     "chrono": "c",
-    "arraydinamico.h": "c"
+    "arraydinamico.h": "c",
+    "string_view": "c",
+    "regex": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

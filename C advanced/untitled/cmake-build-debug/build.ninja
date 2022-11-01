@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Strutture_Dati
+# Project: untitled
 # Configurations: Debug
 # =============================================================================
 
@@ -39,64 +39,64 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/cmake-build-debug/
+cmake_ninja_workdir = E$:/Code/University_Engineering/C$ advanced/untitled/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Strutture_Dati
+# Object build statements for EXECUTABLE target untitled
 
 
 #############################################
-# Order-only phony target for Strutture_Dati
+# Order-only phony target for untitled
 
-build cmake_object_order_depends_target_Strutture_Dati: phony || CMakeFiles/Strutture_Dati.dir
+build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/Strutture_Dati.dir/main.c.obj: C_COMPILER__Strutture_Dati_Debug E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/main.c || cmake_object_order_depends_target_Strutture_Dati
-  DEP_FILE = CMakeFiles\Strutture_Dati.dir\main.c.obj.d
+build CMakeFiles/untitled.dir/main.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/main.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
-  OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/Strutture_Dati.dir/TInfo.c.obj: C_COMPILER__Strutture_Dati_Debug E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/TInfo.c || cmake_object_order_depends_target_Strutture_Dati
-  DEP_FILE = CMakeFiles\Strutture_Dati.dir\TInfo.c.obj.d
+build CMakeFiles/untitled.dir/TInfo.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/TInfo.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TInfo.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
-  OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/Strutture_Dati.dir/TList.c.obj: C_COMPILER__Strutture_Dati_Debug E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/TList.c || cmake_object_order_depends_target_Strutture_Dati
-  DEP_FILE = CMakeFiles\Strutture_Dati.dir\TList.c.obj.d
+build CMakeFiles/untitled.dir/TArray.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/TArray.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TArray.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
-  OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/Strutture_Dati.dir/TArray.c.obj: C_COMPILER__Strutture_Dati_Debug E$:/Code/University_Engineering/C$ advanced/Strutture$ Dati/TArray.c || cmake_object_order_depends_target_Strutture_Dati
-  DEP_FILE = CMakeFiles\Strutture_Dati.dir\TArray.c.obj.d
+build CMakeFiles/untitled.dir/TList.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/TList.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TList.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
-  OBJECT_FILE_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Strutture_Dati
+# Link build statements for EXECUTABLE target untitled
 
 
 #############################################
-# Link the executable Strutture_Dati.exe
+# Link the executable untitled.exe
 
-build Strutture_Dati.exe: C_EXECUTABLE_LINKER__Strutture_Dati_Debug CMakeFiles/Strutture_Dati.dir/main.c.obj CMakeFiles/Strutture_Dati.dir/TInfo.c.obj CMakeFiles/Strutture_Dati.dir/TList.c.obj CMakeFiles/Strutture_Dati.dir/TArray.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/TInfo.c.obj CMakeFiles/untitled.dir/TArray.c.obj CMakeFiles/untitled.dir/TList.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Strutture_Dati.dir
+  OBJECT_DIR = CMakeFiles\untitled.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Strutture_Dati.exe
-  TARGET_IMPLIB = libStrutture_Dati.dll.a
-  TARGET_PDB = Strutture_Dati.exe.dbg
+  TARGET_FILE = untitled.exe
+  TARGET_IMPLIB = libuntitled.dll.a
+  TARGET_PDB = untitled.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "E:\Code\University_Engineering\C advanced\Strutture Dati\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "E:\Code\University_Engineering\C advanced\untitled\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -107,7 +107,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "E:\Code\University_Engineering\C advanced\Strutture Dati\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"E:\Code\University_Engineering\C advanced\Strutture Dati" -B"E:\Code\University_Engineering\C advanced\Strutture Dati\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "E:\Code\University_Engineering\C advanced\untitled\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"E:\Code\University_Engineering\C advanced\untitled" -B"E:\Code\University_Engineering\C advanced\untitled\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -117,7 +117,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Strutture_Dati: phony Strutture_Dati.exe
+build untitled: phony untitled.exe
 
 # =============================================================================
 # Folder targets.
@@ -125,9 +125,9 @@ build Strutture_Dati: phony Strutture_Dati.exe
 # =============================================================================
 
 #############################################
-# Folder: E:/Code/University_Engineering/C advanced/Strutture Dati/cmake-build-debug
+# Folder: E:/Code/University_Engineering/C advanced/untitled/cmake-build-debug
 
-build all: phony Strutture_Dati.exe
+build all: phony untitled.exe
 
 # =============================================================================
 # Built-in targets
