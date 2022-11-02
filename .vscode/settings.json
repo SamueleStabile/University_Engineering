@@ -8,7 +8,8 @@
     "chrono": "c",
     "arraydinamico.h": "c",
     "string_view": "c",
-    "regex": "c"
+    "regex": "c",
+    "list": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

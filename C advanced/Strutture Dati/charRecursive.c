@@ -9,8 +9,8 @@ int main(int argc, char** argv){
 char s[MAX] = "";
 
 strcpy(s, argv[1]);
-printf("%s\n", s);
-printf("%d,\n",lunghezza(s));
+printf("stringa: [%s]\n", s);
+printf("lunghezza: [%d]\n",lunghezza(s));
 }
 
 int lunghezza(char *string){

@@ -35,7 +35,8 @@ TList listDupEven(TList list){
         }
         //printf("\n");
         //listPrint(ret);
-        list = list->link;
+     
+         list = list->link;
     }
     return ret;
 }

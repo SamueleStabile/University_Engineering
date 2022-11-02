@@ -1,9 +1,11 @@
 # ninja log v5
-2	142	6889679064305366	build.ninja	9d4846c5b3045211
-3	110	6889679066075366	CMakeFiles/untitled.dir/main.c.obj	78d98fb6ee874d5
+1	142	6890585087652619	build.ninja	9d4846c5b3045211
+2	263	6890584941931621	CMakeFiles/untitled.dir/main.c.obj	78d98fb6ee874d5
+3	154	6890273399866157	CMakeFiles/untitled.dir/TStack.c.obj	2a2c984eaee477ff
 9	111	6889679066075366	CMakeFiles/untitled.dir/TInfo.c.obj	de01b00625a997c
+70	170	6890309036032484	untitled.exe	ff64292c82421627
 6	112	6889679066085353	CMakeFiles/untitled.dir/TArray.c.obj	62960c1cc870dc4e
 0	112	6889679066085353	CMakeFiles/untitled.dir/TList.c.obj	7fa86f8a13cc0cef
-113	223	6889679067175359	untitled.exe	dc553733e2d4bf4f
-2	77	6889679945472434	CMakeFiles/untitled.dir/main.c.obj	78d98fb6ee874d5
-77	190	6889679946572432	untitled.exe	dc553733e2d4bf4f
+1	130	6890585087652619	build.ninja	9d4846c5b3045211
+2	114	6890585089292634	CMakeFiles/untitled.dir/TQueue.c.obj	cf92e060c6cdd377
+114	257	6890585090682610	untitled.exe	35b9bd76b52c19cd

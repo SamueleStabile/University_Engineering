@@ -11,28 +11,40 @@ bool list_is_empty(TList L){
 }
 
 TList listaClone(TList L){ 
- TList ret = listCreate();
- while(!list_is_empty(L)){
-    ret =  listInsert(ret, L->info);
+
+   TList ret = listCreate();
+
+   while(!list_is_empty(L)){
+      ret =  listInsert(ret, L->info);
     L = L->link;
  }
+
 return ret;
 }
 
 TList listaCloneRecursive(TList L){
+   
    if (list_is_empty(L)){
       return listCreate(); //caso base
    }
+
    TList ret = listaCloneRecursive(L->link);
    ret = listInsert(ret, L->info);
+
    return ret; 
+
 }
+
 TList ListPari(TList L){
+
    TList ret = listCreate();
+
    while(!list_is_empty(L)){
       if(L->link!=NULL){
+
          ret = listInsert(ret, L->link->info); 
          L = L->link->link;
+
       }
       else
       ret = NULL;
@@ -42,12 +54,15 @@ TList ListPari(TList L){
 
 
 TList ListPariRecursive(TList L){
+
    if(list_is_empty(L) || list_is_empty(L->link)){//caso based
       return listCreate(); 
    }
-      TList ret = ListPariRecursive(L->link->link);
-      ret = listInsert(ret, L->link->info);
-      return ret;
+
+   TList ret = ListPariRecursive(L->link->link);
+
+   ret = listInsert(ret, L->link->info);
+   return ret;
 }
 
 int main(int argc, char** argv){

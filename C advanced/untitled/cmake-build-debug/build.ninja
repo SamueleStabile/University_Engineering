@@ -73,6 +73,18 @@ build CMakeFiles/untitled.dir/TList.c.obj: C_COMPILER__untitled_Debug E$:/Code/U
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
+build CMakeFiles/untitled.dir/TStack.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/TStack.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TStack.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/TQueue.c.obj: C_COMPILER__untitled_Debug E$:/Code/University_Engineering/C$ advanced/untitled/TQueue.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TQueue.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -81,7 +93,7 @@ build CMakeFiles/untitled.dir/TList.c.obj: C_COMPILER__untitled_Debug E$:/Code/U
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/TInfo.c.obj CMakeFiles/untitled.dir/TArray.c.obj CMakeFiles/untitled.dir/TList.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/TInfo.c.obj CMakeFiles/untitled.dir/TArray.c.obj CMakeFiles/untitled.dir/TList.c.obj CMakeFiles/untitled.dir/TStack.c.obj CMakeFiles/untitled.dir/TQueue.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir

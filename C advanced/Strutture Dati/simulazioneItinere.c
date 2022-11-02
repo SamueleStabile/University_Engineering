@@ -125,7 +125,7 @@ TList estraiSottoLista (TList l, TInfo v){
     TList ret = estraiSottoLista(l->link,v);
     
     if(infoLess(l->info,v)){
-        ret = listInsertAt(ret, l->info,0);
+        ret = listInsert(ret, l->info);
     }
        return ret;
     

@@ -17,67 +17,20 @@ TList listDeleteInterval (TList list, TInfo min, TInfo max)
 bool list_is_empty(TList L){
     return L==NULL ;
 }
-//Versione ITERATIVA
-TList listDeleteInterval (TList list, TInfo min, TInfo max){
 
-	TNode* curr = list;
-	TNode* prev = NULL;
-
-	// Skip gli elementi inferiori al minimo
-	while((curr != NULL) && infoLess(curr->info, min)){
-	    printf("Skip: %d\n", curr->info);
-		prev = curr; //salvo corrente nel precedente
-		curr = curr->link; //incremento lista
-	}
-
-    // Cancellazione elementi nel range
-	while((curr != NULL) && (curr->info <= max)){
-		printf("- DELETING:  %d\n", curr->info);
-
-		if (prev == NULL){ // se prev == NULL mi trovo nel primo elemento "in testa"
-		    list = curr->link; 
-		    nodeDestroy(curr);
-		    curr = list;
-		}
-		else{
-    		prev->link = curr->link; 
-    		nodeDestroy(curr);
-    		curr = prev->link;
-		}
-	}
-    return list;
-}
-
-TList listDeleteIntervalRec(TList list, TInfo min, TInfo max) {
-    printf("> chiamata a listDeleteIntervalRec tra %d e %d:\n", min, max);
+TList listDeleteInterval(TList list, TInfo min, TInfo max){
     
-	// Caso Base
-    if (list == NULL || infoLess(max, list->info)){
-        if (list == NULL)
-            printf("- caso base a fine lista\n");
-        else
-    	    printf("- caso base a %d\n", list->info);
+    if(list==NULL||infoGreater(list->info,max))
         return list;
+
+    list->link=listDeleteInterval(list->link, min, max);
+
+    if(infoEqual(list->info,max) || infoEqual(list->info,min) || infoGreater(max,list->info) && infoGreater(list->info,min)){
+        TList tmp=list->link; //salvo l'elemento successivo
+        nodeDestroy(list); //distruggo il nodo corrente
+        list=tmp; //ora list sará ugale a tmp ossia il nodo successivo
     }
 
-    // Divide et Impera
-    TList tail = listDeleteIntervalRec(list->link, min, max);
-    if (tail == NULL)
-        printf("- per info %d tail a fine coda\n", list->info);
-    else
-        printf("- per info %d tail %d\n", list->info, tail->info);
-
-    if (infoGreater(min, list->info)){
-        printf("- skip info %d\n", list->info);
-        list->link = tail;
-    }
-    else {
-        printf("* delete info %d\n", list->info);
-        nodeDestroy(list);
-        list = tail;
-    }
-    
-    // Combina
     return list;
 }
 
@@ -98,11 +51,11 @@ int main(int argc, char **argv){
     printf("\nMIN:");
     scanf("%d",&min);
 
-    TList ret = listDeleteInterval (list,min,max);
-    listPrint(ret);
+    listDeleteInterval (list,min,max);
+    listPrint(list);
 
-    TList ret2 = listDeleteIntervalRec (list,min,max);
-    listPrint(ret2);
+    //TList ret2 = listDeleteIntervalRec (list,min,max);
+    //listPrint(ret2);
 }
 
 
