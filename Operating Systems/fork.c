@@ -25,7 +25,8 @@ int main(){
 		//parent process
 		fprintf(stdout, "I am the parent process: [%d]\n",pid);
 		//parent process wait for the child to complete
-		wait(NULL);
+		
+		wait(NULL); //blocca il chiamante fino alla terminazione di un figlio
 		fprintf(stdout, "Child completed\n");
 	}
 	printf("Program Completed\n");
