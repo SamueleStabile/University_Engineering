@@ -25,3 +25,14 @@ C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.Properties.Resources.
 C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.csproj.GenerateResource.cache
 C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.exe
 C:\Users\Samue\Desktop\SamuSaveFile\obj\Debug\SamuSaveFile.pdb
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\bin\Debug\SamuSaveFile.exe.config
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\bin\Debug\SamuSaveFile.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\bin\Debug\SamuSaveFile.pdb
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.csproj.AssemblyReference.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.csproj.SuggestedBindingRedirects.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.Form1.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.Properties.Resources.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.csproj.CoreCompileInputs.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\__SamuSaveFile\obj\Debug\SamuSaveFile.pdb

@@ -43,3 +43,14 @@ D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro_Medico_Alpha.Properties.Reso
 D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
 D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.exe
 D:\inf\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.exe.config
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\bin\Debug\Centro Medico Alpha.pdb
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.AssemblyReference.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.SuggestedBindingRedirects.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro_Medico_Alpha.CodaStudioMedicoForm.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro_Medico_Alpha.Properties.Resources.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.csproj.CoreCompileInputs.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\_Stack_Queue\Code\Queue 1.0\obj\Debug\Centro Medico Alpha.pdb

@@ -34,3 +34,14 @@ D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe.config
 D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.exe
 D:\inf\Somma 2 numeri Samu\bin\Debug\Somma 2 numeri Samu.pdb
 D:\inf\Somma 2 numeri Samu\obj\Debug\Somma_2_numeri_Samu.Forma_Gino.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\bin\Debug\Somma 2 numeri Samu.exe.config
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\bin\Debug\Somma 2 numeri Samu.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\bin\Debug\Somma 2 numeri Samu.pdb
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.csproj.AssemblyReference.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma_2_numeri_Samu.Forma_Gino.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma_2_numeri_Samu.Properties.Resources.resources
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.csproj.GenerateResource.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.csproj.CoreCompileInputs.cache
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.exe
+C:\Users\Samue\Desktop\University_Engineering\C#\Calcolatrice Samu\obj\Debug\Somma 2 numeri Samu.pdb

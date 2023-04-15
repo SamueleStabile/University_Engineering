@@ -31,7 +31,7 @@ namespace SamuSaveFile
 
         private void button1_Click(object sender, EventArgs e)
         {
-            StreamWriter FluxWrite = new StreamWriter("file.txt");
+            StreamWriter FluxWrite = new StreamWriter("fileOUTPUT.txt");
             FluxWrite.Write(Notepad.Text); //scrive sul file fino alla sua fine automaticamente
             FluxWrite.Close();
         }
@@ -41,7 +41,7 @@ namespace SamuSaveFile
             int i = 0;
             string riga;
 
-            StreamReader fluxR = new StreamReader("file.txt");
+            StreamReader fluxR = new StreamReader("fileOUTPUT.txt");
             do
             {
                 riga = fluxR.ReadLine();
