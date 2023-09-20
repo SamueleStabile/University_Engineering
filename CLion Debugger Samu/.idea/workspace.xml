@@ -17,7 +17,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fa10a5-1607-4bd7-afbc-793d4fdd823d" name="Changes" comment="" />
+    <list default="true" id="e0fa10a5-1607-4bd7-afbc-793d4fdd823d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../C#/Samu BliblioArray Alpha 2/BiblioArray GioMatrix/Biblioteca_array v4/Biblioteca_array v2/.vs/Biblioteca_1/v16/Server/sqlite3/storage.ide" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +82,7 @@
       <workItem from="1666363284358" duration="1600000" />
       <workItem from="1666601282096" duration="672000" />
       <workItem from="1666875036752" duration="7000" />
+      <workItem from="1680653629074" duration="6000" />
     </task>
     <servers />
   </component>
