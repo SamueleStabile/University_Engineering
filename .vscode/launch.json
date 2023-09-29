@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "University_Engineering_4e253216"
+        },
+        {
             "name": "C/C++: gcc.exe compilare ed eseguire il debug del file attivo",
             "type": "cppdbg",
             "request": "launch",
