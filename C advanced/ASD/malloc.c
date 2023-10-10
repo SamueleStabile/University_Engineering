@@ -37,7 +37,7 @@ int main(int argc, char **argv)
         scanf("%s", gruppo[i].cognome);
         // printf("[%s]", gruppo[i].cognome);
 
-        printf("Anni Persona [%d]: ", i);
+        printf("Anni Persona [%d]: ", i); 
         scanf("%d", &gruppo[i].anni);
         // printf("[%d]", gruppo[i].anni);
     }
