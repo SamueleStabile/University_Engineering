@@ -1,12 +1,16 @@
 /*
 specificare direttive package e import
  */
-
+import it.unisa.diem.oop22.veicoli.Veicolo;
+import it.unisa.diem.oop22.veicoli.Autovettura;
+import it.unisa.diem.oop22.veicoli.Moto;
+import it.unisa.diem.oop22.veicoli.Camion;
 
 /**
  *
- * @author luca
+ * @author samuele stabile
  */
+
 public class TestVeicoli {
 
     public static void main(String args[]){
