@@ -29,10 +29,4 @@ public abstract class Veicolo {
     public abstract boolean controllaTarga();
 
     public String toString(){
-        return "\nTelaio: " + this.numTelaio + ", Modello: " + this.modello + ", Alimentazione: " + this.alimentazione + ", Targa: " + this.targa;
-    }
-    
-}
-
-
-
+        return "\nTelaio: " + this.numTelaio + ", Modello: " + this.modello + ", Alimentazione: " + this.alimentazione + "

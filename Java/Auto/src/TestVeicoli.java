@@ -1,6 +1,5 @@
-/*
-specificare direttive package e import
- */
+
+
 import it.unisa.diem.oop22.veicoli.Veicolo;
 import it.unisa.diem.oop22.veicoli.Autovettura;
 import it.unisa.diem.oop22.veicoli.Moto;
@@ -42,10 +41,4 @@ public class TestVeicoli {
         System.out.println("Targa valida? " + v.controllaTarga() + "\n\n");
 
         System.out.println("Test 6: moto con targa non valida");
-        v = new Moto("gdt7896", "Suzuki Bandit", "Benzina", "AT5123N", false);
-        System.out.println(v);
-        System.out.println("Targa valida? " + v.controllaTarga() + "\n\n");
-
-    }
-
-}
+        v = new Moto("gdt7896", "Suzuki Bandit", "Ben
