@@ -6,34 +6,40 @@
     <title>Document</title>
 </head>
     <style>
+        body{
+            margin: 0;
+            display: flex;
+        }
         section{
-            border: 1px solid black;
+            display: flex;
+            margin: 0 auto;
         }
-        .left{
-            float: left;
-            border: 2px solid green;
+        div{
+            width: 200px;
+            height: 100px; 
         }
-        .right{
-            float: right;
-            border: 2px solid blue;
-        }
-        p{
-            border: 2px solid yellow;
-        }
+       div:nth-child(1){
+        background-color: rgb(239, 116, 111);
+       }
+       div:nth-child(2){
+        background-color: #ECF081;
+       }
+       div:nth-child(3){
+        background-color: mediumseagreen;
+       }
+       div:nth-child(4){
+        background-color: rgb(171, 62, 91);
+       }
         
     </style>
 <body>
     <section>
-        <div class="left">1</div>
-        <div class="left">2</div>
-        <div class="right">3</div>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur
-       adipiscing elit. Morbi tristique
-        sapien ac erat tincidunt, sit amet dignissim
-       lectus vulputate. Donec id
-        iaculis velit. Aliquam vel malesuada erat.
-       </p>
-       </section>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </section>
 </body>
 </html>
