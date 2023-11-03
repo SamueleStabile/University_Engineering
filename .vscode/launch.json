@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestRimessa",
+            "request": "launch",
+            "mainClass": "TestRimessa",
+            "projectName": "University_Engineering_3a827e54"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
